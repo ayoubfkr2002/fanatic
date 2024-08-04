@@ -1,0 +1,222 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+color:#0066CC;
+background:url('/css/fjo.jpg');
+font-family:Comic Sans MS;
+font-size:4px;
+}
+table{
+padding:0px;
+border:0px;
+}
+tr{
+padding:0px;
+border:0px;
+}
+td{
+padding:0px;
+border:0px;
+}
+a{
+color:#669900;
+text-decoration:none;
+}
+a:hover{
+color:#CCCCFF;
+}
+img{
+border:0;
+vertical-align:center;
+}
+select{
+padding:3px;
+text-align:center;
+color:#CCCCFF;
+}
+#home{
+width:1000px;
+background:#6699FF;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+border:1px solid #6699FF;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+
+}
+.header{
+padding:5px;
+background:#FFF;
+font-size:18px;
+background: url(/css/);
+color:#005599;
+font-weight:bold;
+height:150px;
+
+
+}
+.share{
+float:right;
+margin:5px;
+}
+#navbar{
+height:39px;
+background: #333333;
+border-top:1px solid #333333;
+border-bottom: 1px solid #333333;
+
+}
+#navbar ul{
+list-style:none;
+}
+#navbar ul li{
+float:left;
+}
+#navbar  ul li a{
+display:block;
+text-align: center;
+font-size: 12px;
+color: #669900;	
+padding: 11px;
+font-weight:bold;
+border-right:1px solid #666666;
+
+}
+#navbar  ul li a:hover{
+background:#F1F1F1;
+}
+.panel{
+border:#FFF solid 2px;
+}
+.head_panel{
+background:url('/css/bg.png');
+padding:5px;
+margin-top:5px;
+color:#000000;
+text-align:center;
+font-size:16px;
+font-weight:bold;
+}
+.body_panel{
+border:#333333  solid  1px;
+padding:6px;
+text-align:center;
+color:#999;
+background:#FFF;
+}
+.body_panel span{
+color:#999;
+}
+.tb td{
+text-align:center;
+}
+.head_tb td{
+font-size:14px;
+color:#99CC66;
+font-weight:bold;
+background:#FFF;
+text-align:center;
+padding:4px;
+}
+.tbl{
+border:1px solid #CCC;
+}
+.body_tb td{
+font-size:14px;
+color:#EEEEEE;
+font-weight:bold;
+background:#FF6666;
+text-align:center;
+padding:4px;
+}
+.body_tb:hover td{
+background:#006699;
+}
+.body_tb2 td{
+font-size:14px;
+color:#EEEEEE;
+font-weight:bold;
+background:#99CC33;
+text-align:center;
+padding:4px;
+}
+.tr_data td{
+padding:6px;
+background:#99CC33;
+}
+.tr_data:hover td{
+color:#000000;
+padding:6px;
+background:#6666CC;
+}
+.body_tb2:hover td{
+background:#6666CC;
+}
+.tr1{
+background:#FFF;
+border:1px solid #CCC;
+border-collapse:collapse;
+}
+.tr2 td{
+background:#FFF;
+}
+.tr3 td{
+background:#FFF;
+border:1px solid #CCC;
+border-collapse:collapse;
+}
+.tr4 td{
+background:#FFF;
+border:1px solid #CCC;
+border-collapse:collapse;
+padding:3px;
+}
+#ipt{
+border:1px solid #CCC;
+padding:4px;
+color:#999;
+text-align:center;
+margin-bottom:3px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+}
+.inpt{
+border:1px solid #CCC;
+padding:4px;
+color:#999;
+text-align:center;
+margin-bottom:3px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+}
+
+.btn{
+border:3px solid #FF0080;
+color:#FF0000;
+padding:6px;
+background:url('/css/');
+text-align:center;
+font-weight:bold;
+margin:3px;
+}
+.btn:hover{
+background:#FFF;
+color:#005599;
+}
+
+.links a{
+border-bottom:#000000 solid 1px;
+padding:4px;
+display:block;
+}
+.links a:hover{
+color:#005599;
+}
+.br{
+clear:both;
+}

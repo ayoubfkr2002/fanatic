@@ -1,0 +1,702 @@
+#captcha FIELDSET {
+	PADDING-RIGHT: 10px; BORDER-TOP: #c0c0c0 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+#captcha LEGEND {
+	COLOR: #808080
+}
+#captcha .divider {
+	DISPLAY: none
+}
+#captcha .captcha_refresh {
+	FONT-SIZE: 9px; COLOR: #808080
+}
+#captcha .captcha_other_options {
+	FONT-SIZE: 9px; PADDING-TOP: 5px
+}
+#captcha .recaptcha_text {
+	FONT-SIZE: 11px; LINE-HEIGHT: 16px
+}
+#captcha .captcha_optout {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+#captcha #recaptcha_image {
+	FONT-WEIGHT: bold; MARGIN: 10px 0px 0px
+}
+#captcha #recaptcha_image A.recaptcha_audio_cant_hear_link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px
+}
+#captcha .captcha_loading {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#captcha .captcha_image IMG {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid
+}
+#captcha .captcha_input INPUT {
+	MARGIN-TOP: 4px; WIDTH: 137px; DIRECTION: ltr
+}
+#captcha .captcha_input LABEL {
+	MARGIN-RIGHT: 4px
+}
+.register #captcha .captcha_input LABEL {
+	FONT-WEIGHT: bold; COLOR: #666
+}
+.captcha#generic_dialog .generic_dialog_popup {
+	WIDTH: 340px
+}
+.captcha#generic_dialog #generic_dialog_popup {
+	BORDER-RIGHT: white 0px solid; BORDER-TOP: white 0px solid; MARGIN: auto; BORDER-LEFT: white 0px solid; BORDER-BOTTOM: white 0px solid
+}
+.captcha#generic_dialog #generic_dialog_popup LEGEND {
+	DISPLAY: none
+}
+.audiocaptcha {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.audiocaptcha A {
+	DISPLAY: block
+}
+.recaptcha_is_showing_audio .recaptcha_only_if_image {
+	DISPLAY: none! important
+}
+.recaptcha_is_showing_audio .recaptcha_only_if_audio {
+	DISPLAY: inline! important
+}
+.recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol {
+	DISPLAY: none! important
+}
+.recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol {
+	DISPLAY: none! important
+}
+.recaptcha_whats_this {
+	DISPLAY: inline; MARGIN-LEFT: 15px
+}
+.captcha_interstitial {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; MARGIN: 20px auto; BORDER-LEFT: #ccc 1px solid; WIDTH: 555px; PADDING-TOP: 20px; BORDER-BOTTOM: #ccc 1px solid
+}
+.loggedOut#blueBar {
+	POSITION: absolute; HEIGHT: 82px
+}
+.menu_login_container TABLE TR {
+	VERTICAL-ALIGN: top
+}
+.menu_login_container TABLE TR TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.menu_login_container .inputtext {
+	BORDER-LEFT-COLOR: #1d2a5b; BORDER-BOTTOM-COLOR: #1d2a5b; MARGIN: 0px; WIDTH: 142px; BORDER-TOP-COLOR: #1d2a5b; BORDER-RIGHT-COLOR: #1d2a5b
+}
+.menu_login_container .inputpassword {
+	BORDER-LEFT-COLOR: #1d2a5b; BORDER-BOTTOM-COLOR: #1d2a5b; MARGIN: 0px; WIDTH: 142px; BORDER-TOP-COLOR: #1d2a5b; BORDER-RIGHT-COLOR: #1d2a5b
+}
+.menu_login_container LABEL {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #98a9ca
+}
+.menu_login_container TD.html7magic {
+	PADDING-BOTTOM: 4px
+}
+.menu_login_container .html7magic LABEL {
+	PADDING-LEFT: 1px; COLOR: #fff
+}
+.menu_login_container .inputcheckbox {
+	MARGIN-LEFT: 0px
+}
+.menu_login_container A {
+	COLOR: #98a9ca
+}
+.menu_login_container A:hover {
+	COLOR: #98a9ca
+}
+.menu_login_container .login_form_label_field {
+	PADDING-BOTTOM: 3px; VERTICAL-ALIGN: bottom; PADDING-TOP: 3px
+}
+.menu_login_container .login_form_label_field INPUT {
+	VERTICAL-ALIGN: bottom; POSITION: relative; TOP: 1px
+}
+.menu_login_container .login_form_label_field LABEL {
+	VERTICAL-ALIGN: bottom; POSITION: relative; TOP: -2px
+}
+.menu_login_container .login_form_label_field A {
+	VERTICAL-ALIGN: bottom; POSITION: relative; TOP: -2px
+}
+.menu_login_container #email {
+	DIRECTION: ltr
+}
+.loggedout_menubar_container {
+	Z-INDEX: 100; POSITION: relative; HEIGHT: 82px; BACKGROUND-COLOR: #3b5998
+}
+.loggedout_menubar {
+	MARGIN: 0px auto; WIDTH: 964px; PADDING-TOP: 13px
+}
+.loggedout_menubar .fb_logo {
+	MARGIN-TOP: 17px; MARGIN-LEFT: 18px
+}
+.signup_bar_container {
+	BORDER-BOTTOM: #d8dfea 1px solid; BACKGROUND-COLOR: #edeff4
+}
+.signup_box {
+	PADDING-RIGHT: 22px; DISPLAY: block; PADDING-LEFT: 22px; FONT-WEIGHT: bold; FONT-SIZE: 13px; PADDING-BOTTOM: 14px; MARGIN: 0px auto; WIDTH: 920px; COLOR: #203360; LINE-HEIGHT: normal; PADDING-TOP: 14px
+}
+.signup_box_content {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 13px; FLOAT: left; PADDING-BOTTOM: 6px; PADDING-TOP: 4px
+}
+.signup_box_submessage {
+	CLEAR: left; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+.signup_box .signup_btn {
+	FLOAT: left
+}
+.LogoutPage_ActivateMobileButton {
+	LEFT: 343px; FLOAT: right; POSITION: absolute; TOP: 120px
+}
+.LogoutPage_MobileIcon {
+	MARGIN: 30px 0px 0px 50px; POSITION: absolute
+}
+.LogoutPage_MobileMainContainer {
+	BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zK/r/BFOd681AL3h.png) no-repeat left bottom; MARGIN: 6px 0px 0px -40px; WIDTH: 537px; HEIGHT: 295px
+}
+.LogoutPage_MobileMessageContainer {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 6px; FLOAT: right; PADDING-BOTTOM: 0px; WORD-SPACING: -1px; WIDTH: 330px; COLOR: #203360; LINE-HEIGHT: 23px; PADDING-TOP: 20px
+}
+.LogoutPage_MobileMessage {
+	FONT-SIZE: 20px! important
+}
+.LogoutPage_MobileSubmessage {
+	FONT-SIZE: 15px! important
+}
+.bulkTaggerTypeahead {
+	WIDTH: 210px
+}
+.bulk_tagger_body .bulkTagIcon {
+	MARGIN-TOP: 6px; MARGIN-RIGHT: 7px
+}
+.bulk_tagger_body .bulkTagStatus {
+	DISPLAY: inline-block; PADDING-TOP: 4px
+}
+.bulkTagSaving {
+	DISPLAY: none
+}
+.tagSaving .bulkTagSaving {
+	MARGIN-TOP: 2px; DISPLAY: inline-block
+}
+.bulk_tagger_loading {
+	BACKGROUND-POSITION: center center; BACKGROUND-IMAGE: url(http://static.ak.fbcdn.net/rsrc.php/zk/r/LOOn0JtHNzb.gif); BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px
+}
+.fbPhotoFeedbackForm .uiUfi {
+	WIDTH: 436px
+}
+.fbPhotosGrid TD {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; WIDTH: 171px; PADDING-TOP: 0px
+}
+.fbPhotosGridTight TD {
+	PADDING-RIGHT: 8px; WIDTH: 150px
+}
+.fbPhotosGrid .photoDetails {
+	OVERFLOW: hidden; WIDTH: 166px; PADDING-TOP: 2px; WORD-WRAP: break-word
+}
+.fbPhotosGridTight .photoDetails {
+	WIDTH: 154px
+}
+.fbPhotosGrid .lastChild {
+	PADDING-RIGHT: 0px
+}
+.fbPhotoInfoLabel {
+	MARGIN-BOTTOM: 3px
+}
+.fbPhotosMetaTable {
+	WIDTH: 100%
+}
+.fbPhotosMetaTable .infoCell {
+	WIDTH: 264px
+}
+.fbPhotosMetaTable .ufiCell {
+	OVERFLOW: hidden
+}
+.fbPhotosSideColumn {
+	PADDING-TOP: 57px
+}
+.fbPhotosSideColumnShort {
+	PADDING-TOP: 44px
+}
+.fbPhotosSideColumn #sidebar_ads {
+	PADDING-TOP: 0px
+}
+A.uiMediaThumbTagging {
+	CURSOR: default
+}
+A.uiMediaThumbTagging I {
+	CURSOR: crosshair
+}
+A.uiMediaThumbTagging .taggerOverlay {
+	CURSOR: crosshair
+}
+A.uiMediaThumbTagging .taggerOverlayDisabled {
+	CURSOR: default
+}
+A.uiMediaThumbTagging:hover {
+	BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #ccc
+}
+A.uiMediaThumbTagging:active {
+	BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #ccc
+}
+A.uiMediaThumbTagging:focus {
+	BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #ccc
+}
+.tagWrapper {
+	OVERFLOW: hidden; POSITION: relative
+}
+A.uiMediaThumbTagging .taggerOverlay .lockBar {
+	PADDING-LEFT: 21px; FILTER: alpha(opacity=90); LEFT: 10px; COLOR: #fff; POSITION: absolute; TOP: 86px; BACKGROUND-COLOR: #222; opacity: .9
+}
+A.uiMediaThumbTagging .taggerOverlay .lockIcon {
+	DISPLAY: inline-block; LEFT: 6px; BACKGROUND-IMAGE: url(http://e.static.ak.fbcdn.net/rsrc.php/z7/r/LIMS6JdvvOD.png); WIDTH: 15px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 5px; HEIGHT: 15px
+}
+A.uiMediaThumbTagging .taggerOverlay .blackwash {
+	BACKGROUND: #000; FILTER: alpha(opacity=70); LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%; opacity: .7
+}
+A.uiMediaThumbTagging .taggerOverlay .highlightBox {
+	BORDER-RIGHT: #fff 2px solid; BORDER-TOP: #fff 2px solid; FILTER: alpha(opacity=30); BORDER-LEFT: #fff 2px solid; BORDER-BOTTOM: #fff 2px solid; POSITION: absolute; opacity: .3
+}
+.simple_registration_container {
+	PADDING-BOTTOM: 30px; MARGIN: 0px auto; WIDTH: 400px
+}
+#main_container .UIWindowShade {
+	PADDING-TOP: 20px
+}
+#main_container {
+	MARGIN: 0px auto 30px; WIDTH: 600px
+}
+#reg_form_box {
+	PADDING-LEFT: 30px
+}
+#reg_form_box #extra_selects_hack {
+	DISPLAY: none
+}
+#main_container #error {
+	MARGIN-TOP: 20px
+}
+#main_container .terms_footer {
+	MARGIN: 0px 0px 40px 2px; PADDING-TOP: 2px
+}
+.registration #nonfooter .UIFullPage_Container {
+	PADDING-TOP: 0px
+}
+.registration .captcha_input_wrapper {
+	
+}
+.registration #reg_box .label {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #666; PADDING-TOP: 6px
+}
+.registration #reg_box .inputtext {
+	BORDER-LEFT-COLOR: #bdc7d8; BORDER-BOTTOM-COLOR: #bdc7d8; MARGIN: 0px; BORDER-TOP-COLOR: #bdc7d8; BORDER-RIGHT-COLOR: #bdc7d8
+}
+.registration #reg_box .inputpassword {
+	BORDER-LEFT-COLOR: #bdc7d8; BORDER-BOTTOM-COLOR: #bdc7d8; MARGIN: 0px; BORDER-TOP-COLOR: #bdc7d8; BORDER-RIGHT-COLOR: #bdc7d8
+}
+.registration #reg_form_box .reg_btn {
+	MARGIN: 1px 0px 0px 102px
+}
+.registration #reg_captcha {
+	MARGIN: 0px 0px 0px 22px
+}
+.registration #captcha_buttons {
+	CLEAR: left; MARGIN-LEFT: 24px
+}
+.registration #reg_captcha H2 {
+	COLOR: #222
+}
+.registration #captcha .captcha_input {
+	POSITION: relative
+}
+.registration #captcha .captcha_input INPUT {
+	FLOAT: none; MARGIN: 0px
+}
+.registration #captcha .captcha_input #captcha_response {
+	FLOAT: none; MARGIN: 0px
+}
+.registration #captcha_response {
+	MARGIN-LEFT: 0px
+}
+.registration #reg_box SELECT {
+	MARGIN: 1px 0px
+}
+.registration #reg_box .error_field #birthday_month {
+	MARGIN-LEFT: 1px
+}
+.registration #reg_box .error_field #birthday_year {
+	MARGIN-RIGHT: 1px
+}
+.registration #reg_box .error_field #sex {
+	MARGIN: 1px
+}
+.registration P.legal_tos {
+	CLEAR: left
+}
+.registration #reg_captcha #captcha DIV.captcha_input {
+	DISPLAY: inline-block; OVERFLOW: visible
+}
+.registration #reg_captcha #captcha DIV.captcha_input INPUT {
+	WIDTH: auto
+}
+.registration #reg_captcha LABEL {
+	MARGIN-TOP: 3px
+}
+.registration .field_container {
+	MARGIN: 2px 0px 1px
+}
+.registration #reg_captcha .field_container {
+	FLOAT: left
+}
+.registration #reg_captcha LABEL {
+	FLOAT: left
+}
+#age_restriction_error {
+	MARGIN-TOP: 40px
+}
+.registration #reg_box .error_field INPUT.inputtext {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+.registration #reg_box .error_field INPUT.inputpassword {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+#reg_ads_msg {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666; TEXT-ALIGN: center
+}
+#reg_pages_msg {
+	BORDER-TOP: #a0a9c0 1px solid; MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.registration #reg_pages_msg {
+	MARGIN-TOP: 20px; BORDER-TOP-COLOR: #ccc
+}
+.registration .cancel_button_image {
+	FLOAT: left; BACKGROUND-IMAGE: url(http://static.ak.fbcdn.net/rsrc.php/zS/r/STeWPW2kh0m.png); MARGIN: 6px 0px 0px; WIDTH: 12px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.registration #cancel_button {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; MARGIN: 6px 0px 0px; BORDER-LEFT: transparent 0px solid; WIDTH: 75px; COLOR: #3b5998; LINE-HEIGHT: 14px; BORDER-BOTTOM: transparent 0px solid
+}
+.async_status {
+	MARGIN-LEFT: 10px; POSITION: relative; TOP: 3px
+}
+.simple_registration_container .tos_container {
+	MARGIN-TOP: 12px
+}
+.registration .tos_container {
+	MARGIN-LEFT: 22px
+}
+#reg_email__ {
+	DIRECTION: ltr
+}
+#reg_box #reg DIV.password_confirm TD.label {
+	WIDTH: 108px
+}
+#reg_box #reg DIV.password_confirm DIV.reg_btn {
+	MARGIN: 0px 0px 0px 110px
+}
+#reg_box #reg DIV.large_form {
+	PADDING-LEFT: 0px
+}
+#reg_box #reg DIV.large_form TD.label {
+	PADDING-RIGHT: 3px; FONT-SIZE: 13px; WIDTH: 115px
+}
+#reg_box #reg DIV.large_form DIV.field_container INPUT {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 16px; PADDING-BOTTOM: 6px; WIDTH: 250px; PADDING-TOP: 6px
+}
+#reg_box #reg DIV.large_form DIV.field_container SELECT {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; HEIGHT: 30px
+}
+#reg_box #reg DIV.large_form #birthday_warning {
+	FONT-SIZE: 11px
+}
+#reg_box #reg DIV.large_form DIV.reg_btn {
+	MARGIN: 0px 0px 0px 120px
+}
+#reg_box #reg DIV.password_confirm.large_form DIV.reg_btn {
+	MARGIN: 0px 0px 0px 130px
+}
+#reg_box #reg DIV.large_form DIV.reg_btn LABEL INPUT {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; PADDING-TOP: 3px
+}
+#reg_box #reg DIV.password_confirm.large_form TD.label {
+	WIDTH: 125px
+}
+.uiGrid {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px; border-spacing: 0
+}
+.uiGridCalc {
+	WIDTH: 100%
+}
+.uiGrid .vTop {
+	VERTICAL-ALIGN: top
+}
+.uiGrid .vMid {
+	VERTICAL-ALIGN: middle
+}
+.uiGrid .vBot {
+	VERTICAL-ALIGN: bottom
+}
+.uiGrid .hLeft {
+	TEXT-ALIGN: left
+}
+.uiGrid .hCent {
+	TEXT-ALIGN: center
+}
+.uiGrid .hRght {
+	TEXT-ALIGN: right
+}
+.uiMediaThumb {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ccc 1px solid; DISPLAY: inline-block; PADDING-LEFT: 4px; BACKGROUND: #fff; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; outline: none
+}
+.uiMediaThumb.loading {
+	BACKGROUND: url(http://static.ak.fbcdn.net/rsrc.php/zk/r/LOOn0JtHNzb.gif) no-repeat center center
+}
+.uiMediaThumb.loading I {
+	FILTER: alpha(opacity = 30); opacity: .3
+}
+.uiMediaThumbSelected {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BACKGROUND-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:hover {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:hover .uiMediaThumbWrap {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:active {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:active .uiMediaThumbWrap {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:focus {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb:focus .uiMediaThumbWrap {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; BORDER-TOP-COLOR: #3b5998; BORDER-RIGHT-COLOR: #3b5998
+}
+.uiMediaThumb I {
+	BACKGROUND-POSITION: center 25%; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #eee
+}
+.uiMediaThumbSmall I {
+	WIDTH: 73px; HEIGHT: 54px
+}
+.uiMediaThumbMedium I {
+	WIDTH: 114px; HEIGHT: 85px
+}
+.uiMediaThumbLarge I {
+	WIDTH: 149px; HEIGHT: 116px
+}
+.uiMediaThumbHuge I {
+	WIDTH: 161px; HEIGHT: 120px
+}
+.uiMediaThumbAlb {
+	MARGIN-BOTTOM: 4px; MARGIN-RIGHT: 4px
+}
+.uiMediaThumbWrap {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 4px; BACKGROUND: #fff; LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; TOP: 4px
+}
+.uiMediaThumbAlbSmall {
+	WIDTH: 68px; HEIGHT: 49px
+}
+.uiMediaThumbSmall .uiMediaThumbWrap I {
+	WIDTH: 68px; HEIGHT: 49px
+}
+.uiMediaThumbAlbMedium {
+	WIDTH: 109px; HEIGHT: 80px
+}
+.uiMediaThumbMedium .uiMediaThumbWrap I {
+	WIDTH: 109px; HEIGHT: 80px
+}
+.uiMediaThumbAlbLarge {
+	WIDTH: 144px; HEIGHT: 111px
+}
+.uiMediaThumbLarge .uiMediaThumbWrap I {
+	WIDTH: 144px; HEIGHT: 111px
+}
+.uiMediaThumbAlbHuge {
+	WIDTH: 156px; HEIGHT: 115px
+}
+.uiMediaThumbHuge .uiMediaThumbWrap I {
+	WIDTH: 156px; HEIGHT: 115px
+}
+.uiCollapsedFacepile .showAll {
+	WIDTH: 100%
+}
+.uiCollapsedFacepile .showAllLink {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BORDER-LEFT-WIDTH: 0px; BORDER-LEFT-COLOR: #7792ba; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #7792ba; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; BORDER-TOP-COLOR: #7792ba; PADDING-TOP: 3px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #7792ba
+}
+.uiFacepileSmall .showAllLink {
+	MARGIN: 2px 2px 0px 0px; LINE-HEIGHT: 18px
+}
+.uiFacepileMedium .showAllLink {
+	MARGIN: 1px 1px 0px 0px; LINE-HEIGHT: 24px
+}
+.uiFacepileLarge .showAllLink {
+	MARGIN: 5px 5px 0px 0px; LINE-HEIGHT: 44px
+}
+.WelcomePage_Container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zX/r/4PIot2bO7ET.jpg) repeat-x center bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.WelcomePage_MainSell {
+	BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zs/r/1HX6ENG455b.jpg) no-repeat center bottom; MARGIN: 0px; PADDING-TOP: 36px
+}
+.WelcomePage_MainSellCenter {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 940px; PADDING-TOP: 0px; POSITION: relative
+}
+.WelcomePage_Warnings {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 30px; PADDING-TOP: 0px
+}
+.WelcomePage_MainSellLeft {
+	FLOAT: left; PADDING-BOTTOM: 20px; WIDTH: 536px
+}
+.WelcomePage_MainSellRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 396px; PADDING-TOP: 0px
+}
+.WelcomePage_MainMessage {
+	PADDING-RIGHT: 60px; FONT-WEIGHT: bold! important; FONT-SIZE: 20px! important; MARGIN: 1px 0px 0px 6px; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px
+}
+.WelcomePage_MainMap {
+	MARGIN-TOP: 20px; BACKGROUND: url(http://d.static.ak.fbcdn.net/rsrc.php/zi/r/OBaVg52wtTZ.png) no-repeat left top; MARGIN-LEFT: -11px; WIDTH: 537px; HEIGHT: 195px
+}
+.WelcomePage_RecruitPromo {
+	MARGIN-TOP: 5px; BACKGROUND: url(http://f.static.ak.fbcdn.net/rsrc.php/zL/r/skKU74pTcQ4.png) no-repeat left top; MARGIN-LEFT: -60px; WIDTH: 537px; HEIGHT: 420px
+}
+.WelcomePage_RecruitPromoLink {
+	MARGIN-TOP: -20px; MARGIN-LEFT: 340px; COLOR: #fff
+}
+.WelcomePage_RecruitPromoLink A {
+	COLOR: #fff
+}
+.WelcomePage_SimpleReg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.WelcomePage_SignUpSection {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 388px; PADDING-TOP: 0px
+}
+.WelcomePage_SignUpMessage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.WelcomePage_SignUpHeadline {
+	FONT-WEIGHT: bold! important; FONT-SIZE: 20px! important; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px
+}
+.WelcomePage_SignUpSubheadline {
+	FONT-SIZE: 20px! important; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px; PADDING-TOP: 1px
+}
+.WelcomePage .editor TD.label {
+	FONT-WEIGHT: normal! important
+}
+.WelcomePage .captcha_input LABEL {
+	FONT-WEIGHT: normal! important
+}
+.captcha_input LABEL {
+	WIDTH: 90px
+}
+.captcha_input INPUT {
+	DIRECTION: ltr
+}
+#reg_form_box .editor {
+	MARGIN: 0px 0px 7px
+}
+#reg_box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#reg_box .label {
+	PADDING-RIGHT: 3px; FONT-WEIGHT: bold; WIDTH: 90px; COLOR: #1d2a5b; TEXT-ALIGN: right
+}
+#reg_box .inputtext {
+	MARGIN-TOP: 2px; BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; WIDTH: 206px; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+#reg_box .inputpassword {
+	MARGIN-TOP: 2px; BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; WIDTH: 206px; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+#reg_box SELECT {
+	MARGIN: 2px 0px 0px
+}
+#reg_box #birthday_warning {
+	FONT-SIZE: 9px; MARGIN-LEFT: 1px
+}
+#reg_progress {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px! important; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#reg_progress IMG {
+	MARGIN-RIGHT: 15px
+}
+#reg_progress #progress_wrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 80px; TEXT-ALIGN: center
+}
+#reg_progress .popup_retry {
+	FONT-WEIGHT: normal; MARGIN: auto; WIDTH: 200px; TEXT-ALIGN: center
+}
+#terms {
+	MARGIN: 0px 5px 0px 0px
+}
+#reg_form_box .reg_terms_box {
+	MARGIN-LEFT: 95px; PADDING-TOP: 15px
+}
+#openid_buttons_box {
+	BORDER-RIGHT: #e2c822 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #e2c822 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff9d7; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 10px; BORDER-LEFT: #e2c822 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #e2c822 1px solid
+}
+SELECT#openid_buttons_box {
+	FONT-SIZE: 11px
+}
+P.legal_tos {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #555; PADDING-TOP: 0px
+}
+.option_field {
+	MARGIN-BOTTOM: 10px
+}
+.option_field LABEL {
+	FONT-WEIGHT: normal! important
+}
+#captcha_whatsthis {
+	DISPLAY: none
+}
+#captcha_response {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande", tahoma, verdana, arial, sans-serif
+}
+#reg_form_box .reg_btn {
+	MARGIN: 0px 0px 0px 95px
+}
+#reg_form_box #cancel_button {
+	FLOAT: left
+}
+#reg_error {
+	BORDER-RIGHT: #dd3c10 1px solid; BORDER-TOP: #dd3c10 1px solid; BACKGROUND: #ffebe8; MARGIN: 10px 0px 0px; OVERFLOW: hidden; BORDER-LEFT: #dd3c10 1px solid; LINE-HEIGHT: 15px; BORDER-BOTTOM: #dd3c10 1px solid; HEIGHT: 0px; TEXT-ALIGN: center
+}
+#captcha_error {
+	BORDER-RIGHT: #dd3c10 1px solid; BORDER-TOP: #dd3c10 1px solid; BACKGROUND: #ffebe8; MARGIN: 10px 0px 0px; OVERFLOW: hidden; BORDER-LEFT: #dd3c10 1px solid; LINE-HEIGHT: 15px; BORDER-BOTTOM: #dd3c10 1px solid; HEIGHT: 0px; TEXT-ALIGN: center
+}
+#reg_error_inner {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+#reg_captcha {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-TOP: 10px
+}
+#reg_captcha H2 {
+	PADDING-BOTTOM: 3px; COLOR: #1d2a5b
+}
+#reg_captcha #captcha DIV.captcha_input {
+	MARGIN: 5px 0px 7px; OVERFLOW: hidden
+}
+#reg_captcha #captcha_buttons {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; OVERFLOW: hidden; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+#captcha_buttons .gridCol {
+	FLOAT: left; MARGIN: 0px; OVERFLOW: hidden
+}
+#captcha_buttons #A_btn_sign_up {
+	WIDTH: 160px
+}
+#captcha_buttons #back_button {
+	WIDTH: 101px
+}
+#reg_captcha #cancel_button {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; MARGIN: 6px 0px 0px; BORDER-LEFT: transparent 0px solid; WIDTH: 75px; COLOR: #3b5998; LINE-HEIGHT: 14px; BORDER-BOTTOM: transparent 0px solid
+}
+#reg_captcha .cancel_button_image {
+	FLOAT: left; BACKGROUND-IMAGE: url(http://static.ak.fbcdn.net/rsrc.php/zS/r/STeWPW2kh0m.png); MARGIN: 6px 0px 0px; WIDTH: 12px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.welcome_locales {
+	MARGIN: 5px auto; WIDTH: 964px
+}
+#bootloader_css_6qi927pt0gw0o4os_pkg_css {
+	HEIGHT: 42px
+}

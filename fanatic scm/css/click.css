@@ -1,0 +1,44 @@
+#TRAIDNT {
+	position: fixed;
+	right: 0;
+	top: 40px;
+	z-index: 999999;
+}
+.TRAIDNT {
+	background-image: url('paylas.png');
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 42px;
+	top: 10px;
+	margin-left: auto;
+}
+.TRAIDNT:hover {
+	cursor: pointer;
+}
+.facebook {
+	background-position: 0px 0px;
+}
+.twitter {
+	background-position: 0px -42px;
+}
+.flickr {
+	background-position: 0px -84px;
+}
+.friendfeed {
+	background-position: 0px -126px;
+}
+.vimeo {
+	background-position: 0px -168px;
+}
+.youtube {
+	background-position: 0px -210px;
+}
+.linkedin {
+	background-position: 0px -252px;
+}
+.rss {
+	background-position: 0px -294px;
+}
+.facebook:hover {
+	background-position: 0px 0px;
+}

@@ -1,0 +1,2004 @@
+BUTTON.async_saving .default_message {
+	DISPLAY: none
+}
+A.async_saving .default_message {
+	DISPLAY: none
+}
+FORM.async_saving .default_message {
+	DISPLAY: none
+}
+.saving_message {
+	DISPLAY: none
+}
+.default_message {
+	DISPLAY: inline
+}
+BUTTON.async_saving .saving_message {
+	DISPLAY: inline
+}
+A.async_saving .saving_message {
+	DISPLAY: inline
+}
+FORM.async_saving .saving_message {
+	DISPLAY: inline
+}
+.DOMControl_placeholder {
+	COLOR: #777
+}
+.no_js .DOMControl_placeholder {
+	COLOR: #000
+}
+.DOMControl_shadow {
+	LEFT: -10000px; POSITION: absolute; TOP: -10000px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; DIRECTION: ltr; PADDING-TOP: 0px; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif; unicode-bidi: embed; TEXT-ALIGN: left
+}
+.auto_resize_iframe {
+	HEIGHT: auto
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+H1 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 11px
+}
+H5 {
+	FONT-SIZE: 11px
+}
+P {
+	FONT-SIZE: 11px; MARGIN: 1em 0px; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif; TEXT-ALIGN: left
+}
+A {
+	CURSOR: pointer; COLOR: #3b5998; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+SELECT {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+TD {
+	FONT-SIZE: 11px; TEXT-ALIGN: left
+}
+TD.label {
+	FONT-SIZE: 11px; TEXT-ALIGN: left
+}
+DD {
+	COLOR: #000
+}
+DT {
+	COLOR: #777
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+ABBR {
+	BORDER-BOTTOM-STYLE: none
+}
+.pipe {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #808080; PADDING-TOP: 0px
+}
+.column {
+	FLOAT: left
+}
+.center {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#facebook .hidden_elem {
+	DISPLAY: none! important
+}
+#facebook .invisible_elem {
+	VISIBILITY: hidden
+}
+#content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+.profile #content {
+	MIN-HEIGHT: 600px
+}
+.home #content {
+	MIN-HEIGHT: 600px
+}
+.search #content {
+	MIN-HEIGHT: 600px
+}
+.UIStandardFrame_Container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 960px; PADDING-TOP: 20px
+}
+.UIStandardFrame_Content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 760px; PADDING-TOP: 0px
+}
+.UIStandardFrame_SidebarAds {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 200px; PADDING-TOP: 0px
+}
+.UIFullPage_Container {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 940px; PADDING-TOP: 22px
+}
+.empty_message {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: 13px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 50px; LINE-HEIGHT: 17px; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 0px; VISIBILITY: hidden; LINE-HEIGHT: 0; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: block; ZOOM: 1
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LABEL {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: middle; CURSOR: pointer; COLOR: #666
+}
+LABEL INPUT {
+	FONT-WEIGHT: normal
+}
+TEXTAREA {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+.inputtext {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+.inputpassword {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+.inputtext {
+	PADDING-BOTTOM: 4px; MARGIN: -1px 0px
+}
+.inputpassword {
+	PADDING-BOTTOM: 4px; MARGIN: -1px 0px
+}
+.inputradio {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 5px 0px 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.inputcheckbox {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-RIGHT-WIDTH: 0px
+}
+.inputbutton {
+	BORDER-RIGHT: #0e1f5b 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #d9dfea 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; OVERFLOW: visible; BORDER-LEFT: #d9dfea 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #0e1f5b 1px solid; BACKGROUND-COLOR: #3b5998; TEXT-ALIGN: center
+}
+.inputsubmit {
+	BORDER-RIGHT: #0e1f5b 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #d9dfea 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; OVERFLOW: visible; BORDER-LEFT: #d9dfea 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #0e1f5b 1px solid; BACKGROUND-COLOR: #3b5998; TEXT-ALIGN: center
+}
+.inputsubmit_disabled {
+	BORDER-RIGHT: #666 1px solid; COLOR: #fff; BORDER-BOTTOM: #000 1px solid; BACKGROUND-COLOR: #999
+}
+.inputaux {
+	BORDER-LEFT-COLOR: #e7e7e7; BACKGROUND: #f0f0f0; BORDER-BOTTOM-COLOR: #666; COLOR: #000; BORDER-TOP-COLOR: #e7e7e7; BORDER-RIGHT-COLOR: #666
+}
+.inputaux_disabled {
+	COLOR: #999
+}
+.inputsearch {
+	PADDING-LEFT: 17px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zV/r/IJYgcESal33.png) #fff no-repeat left 4px
+}
+.datawrap {
+	WORD-WRAP: break-word
+}
+.word_break {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: -10px; PADDING-TOP: 0px
+}
+.img_loading {
+	LEFT: -100000px; POSITION: absolute; TOP: -100000px
+}
+.see_all {
+	TEXT-ALIGN: right
+}
+.standard_status_element {
+	VISIBILITY: hidden
+}
+.async_saving.standard_status_element {
+	VISIBILITY: visible
+}
+.aero {
+	FILTER: alpha(opacity=50); opacity: .5
+}
+IMG.tracking_pixel {
+	VISIBILITY: hidden; WIDTH: 1px; POSITION: absolute; HEIGHT: 1px
+}
+#dropmenu_container {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; Z-INDEX: 106; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 964px; PADDING-TOP: 0px; POSITION: absolute; HEIGHT: 0px
+}
+.direction_ltr {
+	DIRECTION: ltr
+}
+.direction_rtl {
+	DIRECTION: rtl
+}
+.text_align_ltr {
+	TEXT-ALIGN: left
+}
+.text_align_rtl {
+	TEXT-ALIGN: right
+}
+BUTTON.as_link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; WIDTH: auto; CURSOR: pointer; COLOR: #3b5998; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+BUTTON.as_link:hover SPAN {
+	TEXT-DECORATION: underline
+}
+BUTTON.as_link:focus SPAN {
+	TEXT-DECORATION: underline
+}
+BUTTON.as_link .button_img {
+	MARGIN: 0px 6px 0px 0px; VERTICAL-ALIGN: text-bottom; WIDTH: 16px; HEIGHT: 16px
+}
+.UIComposer {
+	MARGIN-BOTTOM: 10px; POSITION: relative
+}
+#home_stream .UIComposer {
+	Z-INDEX: 2; MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 9px; BORDER-BOTTOM: #eee 1px solid
+}
+.UIComposer_Upload_Iframe {
+	WIDTH: 1px; POSITION: absolute; TOP: -10000px; HEIGHT: 1px
+}
+.UIComposer_Pic {
+	LEFT: 0px; POSITION: absolute
+}
+.UIComposer_PicRounded {
+	LEFT: 0px; POSITION: absolute
+}
+.UIComposer_Prompt {
+	DISPLAY: block; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 5px; COLOR: #696969
+}
+.UIComposer .UIComposer_Box {
+	PADDING-RIGHT: 0px; BORDER-TOP: #919191 2px solid; PADDING-LEFT: 0px; BORDER-LEFT-COLOR: #b5b5b5; BORDER-BOTTOM-COLOR: #cbcbcb; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; BACKGROUND-COLOR: #f2f2f2; BORDER-RIGHT-COLOR: #b5b5b5
+}
+.UIComposer_Content {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.NewHighLight .UIComposer_Content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIComposer_InputArea_Base {
+	DISPLAY: block; BACKGROUND: #fff; POSITION: relative
+}
+.UIComposer_InputArea {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #aeaeae 1px solid; BORDER-LEFT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid
+}
+.UIComposer_InputShadow {
+	PADDING-RIGHT: 5px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.NewHighLight .UIComposer_InputShadow {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.UIComposer_InputShadow .DOMControl_placeholder {
+	LINE-HEIGHT: 21px
+}
+.UIComposer .UIComposer_TextArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; WIDTH: 100%; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 21px; BORDER-BOTTOM-STYLE: none; outline: none; resize: none
+}
+.UIComposer_AttachmentTitle {
+	PADDING-LEFT: 22px; FONT-WEIGHT: bold; BACKGROUND: no-repeat left center; COLOR: #666
+}
+.UIComposer_AttachmentArea {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #aeaeae 1px solid; MARGIN-TOP: 6px; DISPLAY: none; BACKGROUND: #fff; BORDER-LEFT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid
+}
+.UIComposer_AttachmentArea .app_content {
+	OVERFLOW-Y: hidden; OVERFLOW: auto
+}
+.UIComposer_AttachmentArea_Shadow {
+	PADDING-RIGHT: 4px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.UIComposer_AttachmentArea_Header {
+	PADDING-BOTTOM: 4px; OVERFLOW: hidden; LINE-HEIGHT: 18px; BORDER-BOTTOM: #dfdfdf 1px solid; ZOOM: 1
+}
+.UIComposer_AttachmentArea_CloseButton {
+	BACKGROUND: no-repeat -150px -83px; FLOAT: right; WIDTH: 18px; HEIGHT: 18px
+}
+.UIComposer_AttachmentArea_CloseButton:hover {
+	BACKGROUND-POSITION: -168px -83px
+}
+.UIComposer_AttachmentArea_Cache {
+	OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.UIComposer .UIShareStage {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; PADDING-BOTTOM: 9px; PADDING-TOP: 9px
+}
+.UIComposer_AttachmentArea_Loader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+.UIComposer_Attachment_Cached {
+	DISPLAY: none; ZOOM: 1
+}
+.UIComposer_Attachment .uiButtonSuppressed {
+	HEIGHT: 14px
+}
+.UIComposer_ButtonArea {
+	MARGIN-BOTTOM: 0px; PADDING-TOP: 7px; HEIGHT: 24px
+}
+.UIComposer_ButtonArea UL {
+	DISPLAY: block
+}
+.UIComposer_Buttons LI.UIComposer_FormButtons {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+.UIComposer_Buttons LI.UIComposer_PrivacyEtc {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+.UIComposer_Attachments LI {
+	FLOAT: left
+}
+.UIComposer_AttachmentPrompt {
+	PADDING-RIGHT: 4px; FONT-WEIGHT: bold; COLOR: #777; LINE-HEIGHT: 24px
+}
+.hide_buttons #composer_buttons {
+	DISPLAY: none
+}
+.UIComposer_AttachmentArea_CloseButton {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zi/r/8OjNXDy3pHp.gif)
+}
+.UIComposer_STATE_PIC_OUTSIDE .UIComposer_Box {
+	PADDING-LEFT: 60px
+}
+.UIComposer_STATE_PIC_OUTSIDE .UIComposer_Pic {
+	PADDING-LEFT: 14px; PADDING-TOP: 10px
+}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_Pic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_InputArea {
+	PADDING-LEFT: 60px
+}
+.UIComposer_STATE_INPUT_DISABLED .Mentions_Input {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputArea {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputShadow {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_TextArea {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_EXPANDED .Mentions_Input {
+	MIN-HEIGHT: 36px
+}
+.UIComposer_STATE_INPUT_FOCUSED .Mentions_Input {
+	MIN-HEIGHT: 36px
+}
+.UIComposer_STATE_INPUT_EXPANDED .UIComposer_TextArea {
+	HEIGHT: 36px
+}
+.UIComposer_STATE_INPUT_FOCUSED .UIComposer_TextArea {
+	HEIGHT: 36px
+}
+.UIComposer_STATE_ATTACHMENT_AREA .UIComposer_AttachmentList {
+	DISPLAY: none
+}
+.UIComposer_STATE_ATTACHMENT_LOADED .UIComposer_AttachmentArea_Loader {
+	DISPLAY: none
+}
+.UIComposer_STATE_ATTACHMENT_AREA .UIComposer_AttachmentArea {
+	DISPLAY: block
+}
+.UIComposer_STATE_ATTACHMENT_LOADED .UIComposer_Attachment_Visible {
+	DISPLAY: block
+}
+.UIComposer_Buttons .UIComposer_PrivacyEtc {
+	WIDTH: 100px
+}
+.UIComposer_Buttons .UIComposer_PrivacyEtc .UIComposer_PrivacyEtcButton {
+	FLOAT: right
+}
+.Mentions_Input {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; MIN-HEIGHT: 20px; OVERFLOW-X: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; CURSOR: text; BORDER-TOP-STYLE: none; MAX-HEIGHT: 200px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #fff; BORDER-BOTTOM-STYLE: none; outline: none
+}
+.Mentions_Input A {
+	CURSOR: default
+}
+.Mentions_Input A SPAN {
+	outline: none
+}
+.Mentions_Input A:hover {
+	TEXT-DECORATION: none
+}
+.UIComposer_PrivacyWidgetConfirmationBody {
+	OVERFLOW: hidden
+}
+.UIComposer_PrivacyWidgetConfirmationBody P {
+	MARGIN: 0px 0px 10px
+}
+.UIComposer_PrivacyWidgetConfirmationImage {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+.UIComposer_PrivacyCallout {
+	MARGIN-TOP: -5px; Z-INDEX: 100; RIGHT: 38px; WIDTH: 180px; POSITION: absolute; BACKGROUND-COLOR: transparent
+}
+.UIComposer_PrivacyCallout_Title {
+	BORDER-RIGHT: #467c2c 1px solid; BORDER-TOP: #467c2c 1px solid; BORDER-LEFT: #467c2c 1px solid; BORDER-BOTTOM: #467c2c 1px solid
+}
+.UIComposer_PrivacyCallout_Text {
+	BORDER-RIGHT: #467c2c 1px solid; BORDER-TOP: #467c2c 1px solid; BORDER-LEFT: #467c2c 1px solid; BORDER-BOTTOM: #467c2c 1px solid
+}
+.UIComposer_PrivacyCallout_Arrow {
+	BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zL/r/CpHMi1OJYT4.gif) no-repeat right top; MARGIN-RIGHT: 40px; POSITION: relative; TOP: 1px; HEIGHT: 7px
+}
+.UIComposer_PrivacyCallout_Arrow SPAN {
+	DISPLAY: none
+}
+.UIComposer_PrivacyCallout_Title {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #67a54b
+}
+.UIComposer_PrivacyCallout_Text {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 6px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 6px; BACKGROUND-COLOR: #fff
+}
+.UIComposer_PrivacyCallout_Text A {
+	DISPLAY: block
+}
+.UIComposer_PrivacyCallout_CloseLink {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FLOAT: right; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.UIComposer_PrivacyCallout_CloseLink A {
+	COLOR: #fff
+}
+.UIComposer_PrivacyWidget .uiTooltipWrap {
+	RIGHT: 16px; MARGIN-LEFT: 4px; BOTTOM: 23px
+}
+.UIComposer_TargetedPrivacyWidget .uiTooltipWrap {
+	RIGHT: 16px; MARGIN-LEFT: 4px; BOTTOM: 23px
+}
+DIV.pop_dialog .UIComposer {
+	MARGIN-BOTTOM: 0px
+}
+DIV.pop_dialog .UIComposer .UIComposer_ButtonArea {
+	DISPLAY: none
+}
+DIV.pop_dialog .UIComposer_ButtonArea .UIComposer_FormButtons .uiButton {
+	MIN-WIDTH: 44px
+}
+.UIComposer_MentionsCallout {
+	MARGIN-TOP: -4px; Z-INDEX: 100; LEFT: -1px; WIDTH: 180px; POSITION: absolute; BACKGROUND-COLOR: transparent
+}
+.UIComposer_MentionsCallout_Arrow {
+	MARGIN-RIGHT: 150px
+}
+.fbx #pageFooter {
+	MARGIN: auto; WIDTH: auto
+}
+.hasLeftCol #pageFooter {
+	CLEAR: both; MARGIN-LEFT: 180px; BACKGROUND-COLOR: #fff
+}
+#pagefooter {
+	BORDER-TOP-WIDTH: 0px
+}
+#pageFooter {
+	FONT-SIZE: 11px; MARGIN: 0px auto; WIDTH: 980px; COLOR: #737373
+}
+#pageFooter A {
+	WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+#pageFooter A:unknown {
+	MARGIN-RIGHT: 0px
+}
+#pageFooter A:hover {
+	TEXT-DECORATION: underline
+}
+#contentCurve {
+	FONT-SIZE: 1px; BORDER-BOTTOM: #b3b3b3 1px solid; HEIGHT: 8px; BACKGROUND-COLOR: #fff
+}
+.hasLeftCol #contentCurve {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px; BORDER-LEFT: #b3b3b3 1px solid; BORDER-BOTTOM: #b3b3b3 1px solid; POSITION: static
+}
+#footerContainer {
+	PADDING-RIGHT: 8px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 8px; MARGIN-BOTTOM: 30px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; POSITION: relative
+}
+.UIActionLinks_title {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #999; WHITE-SPACE: nowrap
+}
+.has_body .UIActionLinks_title {
+	DISPLAY: none
+}
+.log_mode .has_body .UIActionLinks_title {
+	DISPLAY: inline
+}
+.UIActionLinks_bottom {
+	COLOR: #999
+}
+.UIActionLinks_bottom A {
+	COLOR: #6d84b4
+}
+.UIActionLinks_bottom BUTTON.as_link {
+	COLOR: #6d84b4
+}
+.UIActionLinks_left {
+	COLOR: #6d84b4
+}
+.UIActionLinks_right {
+	COLOR: #6d84b4
+}
+.UIActionLinks .uiBlingBox {
+	COLOR: #3b5998
+}
+.UIActionLinks_left {
+	FLOAT: left
+}
+.UIActionLinks_right {
+	FLOAT: right
+}
+.from_friend_story_content_container .UIActionLinks_bottom {
+	CLEAR: both; DISPLAY: block
+}
+.has_body .UIActionLinks_bottom {
+	CLEAR: both; DISPLAY: block
+}
+.story_body .UIActionLinks_bottom {
+	CLEAR: both; DISPLAY: block
+}
+.log_mode .UIActionLinks_bottom {
+	DISPLAY: none
+}
+.tab_status_updates .UIActionLinks_title {
+	FONT-SIZE: 11px
+}
+BUTTON.like_link {
+	PADDING-RIGHT: 3px; LEFT: 3px; POSITION: relative; TOP: 2px
+}
+BUTTON.unsub_link {
+	PADDING-RIGHT: 3px; LEFT: 3px; POSITION: relative; TOP: 2px
+}
+BUTTON.cmnt_like_link {
+	PADDING-RIGHT: 3px; LEFT: 3px; POSITION: relative; TOP: 2px
+}
+.cmt_like_icon {
+	PADDING-RIGHT: 3px; POSITION: relative; TOP: -2px
+}
+.ego_x {
+	FLOAT: right
+}
+.ego_x_qrt {
+	FILTER: alpha(opacity=0)
+}
+.ego_unit:hover .ego_x_qrt {
+	FILTER: alpha(opacity=100)
+}
+.egoAlbumRandPhoto {
+	FLOAT: left
+}
+.UIIntentionalStream_Error {
+	DISPLAY: none; PADDING-BOTTOM: 8px; PADDING-TOP: 2px
+}
+.UIIntentionalStream_HiddenInfo {
+	FLOAT: right
+}
+.UIIntentionalStream_AutoUpdate {
+	MARGIN: 5px
+}
+.UIIntentionalStream_AutoUpdateMessage {
+	FLOAT: right
+}
+.UIIntentionalStream_AutoUpdateControl {
+	FLOAT: right
+}
+.hideToggler {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FILTER: alpha(opacity=0); BORDER-BOTTOM-WIDTH: 0px; OVERFLOW: hidden; WIDTH: 0px; POSITION: absolute; HEIGHT: 0px; BORDER-RIGHT-WIDTH: 0px; opacity: 0
+}
+.openToggler {
+	Z-INDEX: 100
+}
+.typeahead_list {
+	BORDER-RIGHT: #bdc7d8 1px solid; BORDER-TOP: #bdc7d8 1px; MARGIN-TOP: -1px; FONT-SIZE: 11px; Z-INDEX: 97; BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: auto; BORDER-LEFT: #bdc7d8 1px solid; BORDER-BOTTOM: #bdc7d8 1px solid; POSITION: absolute; TEXT-ALIGN: left
+}
+.generic_dialog .typeahead_list {
+	Z-INDEX: 106
+}
+.typeahead_list_absolute {
+	Z-INDEX: 106
+}
+.typeahead_list .typeahead_suggestion {
+	PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.typeahead_list .typeahead_message {
+	PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.typeahead_list .typeahead_suggestion {
+	BACKGROUND: #fff; FILTER: alpha(opacity=94); CURSOR: default; COLOR: #000; opacity: .94
+}
+.typeahead_list .typeahead_suggestion:hover {
+	CURSOR: hand
+}
+.typeahead_list .typeahead_suggestion EM {
+	FONT-WEIGHT: bold; BACKGROUND: #d8dfea; COLOR: #000; FONT-STYLE: normal
+}
+.typeahead_list .typeahead_suggestion SMALL {
+	PADDING-LEFT: 5px; COLOR: #808080
+}
+.typeahead_list .typeahead_selected {
+	BACKGROUND: #3b5998; FILTER: alpha(opacity=100); COLOR: #fff; opacity: 1
+}
+.typeahead_list .typeahead_selected SMALL {
+	COLOR: #95a5c6
+}
+.typeahead_list .typeahead_selected EM {
+	BACKGROUND: #5670a6; COLOR: #fff
+}
+.typeahead_list .typeahead_message {
+	BACKGROUND: #eee; COLOR: #333
+}
+INPUT.typeahead_found {
+	BACKGROUND-COLOR: #e1e9f6
+}
+.typeahead_iframe {
+	FILTER: alpha(opacity=0); LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.typeahead_parent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; WIDTH: 0px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 0px
+}
+.typeahead_list_icon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: -30px; PADDING-BOTTOM: 0px; WIDTH: 27px; CURSOR: pointer; PADDING-TOP: 0px; POSITION: absolute; TOP: 3px; HEIGHT: 22px
+}
+.typeahead_friendlist_icon {
+	BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zo/r/8kd4RL_nXRp.png) no-repeat 4px 6px
+}
+.on_selected.typeahead_friendlist_icon {
+	BACKGROUND-IMAGE: url(http://c.static.ak.fbcdn.net/rsrc.php/ze/r/bsO4gANdgxm.gif); BACKGROUND-COLOR: #3b5998
+}
+.tokenizer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; FONT-SIZE: 11px; MIN-HEIGHT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 3px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.tokenizer_locked {
+	BACKGROUND: #f4f4f4
+}
+.tokenizer {
+	CURSOR: text
+}
+.tokenizer * {
+	CURSOR: text
+}
+.tokenizer .placeholder {
+	MARGIN-TOP: 5px; FLOAT: left; COLOR: #777
+}
+.tokenizer INPUT {
+	WIDTH: 100%
+}
+.tokenizer .tokenizer_input {
+	MARGIN-TOP: 3px; FLOAT: left; MARGIN-RIGHT: 3px
+}
+.tokenizer .token {
+	MARGIN-TOP: 3px; FLOAT: left; MARGIN-RIGHT: 3px
+}
+.tokenizer .tab_stop {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden
+}
+.tokenizer .tokenizer_stretcher {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden
+}
+.tokenizer .tab_stop {
+	WIDTH: 1px; HEIGHT: 1px
+}
+.tokenizer .tokenizer_stretcher {
+	WIDTH: 0px; PADDING-TOP: 7px
+}
+#facebook .tokenizer .tab_stop INPUT {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; DISPLAY: inline; LEFT: -500px; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid; POSITION: relative
+}
+.tokenizer_input_borderless DIV {
+	LEFT: 4px; MARGIN-LEFT: -1px; OVERFLOW: hidden; POSITION: relative
+}
+.tokenizer_input_borderless DIV INPUT {
+	BORDER-RIGHT: white 3px solid; PADDING-RIGHT: 0px! important; BORDER-TOP: white 3px solid; DISPLAY: block; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; MARGIN: -2px 0px -2px -2px; BORDER-LEFT: white 3px solid; PADDING-TOP: 0px! important; BORDER-BOTTOM: white 3px solid
+}
+.tokenizer DIV:unknown {
+	PADDING-TOP: 1px! important
+}
+.tokenizer_input {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MAX-WIDTH: 450px; PADDING-BOTTOM: 1px; OVERFLOW: hidden; PADDING-TOP: 1px
+}
+#facebook .tokenizer_input INPUT {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: 'lucida grande', tahoma, verdana, arial, sans-serif; WHITE-SPACE: pre
+}
+.tokenizer_input_shadow {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: black 0px solid; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 0px solid; FONT-FAMILY: 'lucida grande', tahoma, verdana, arial, sans-serif; WHITE-SPACE: pre
+}
+.tokenizer_input_shadow {
+	DISPLAY: inline; LEFT: -10000px; POSITION: absolute; TOP: -10000px
+}
+.tokenizer .tokenizer_input_shadow {
+	DISPLAY: block; LEFT: 0px; OVERFLOW: hidden; POSITION: relative; TOP: 0px; HEIGHT: 0px
+}
+DIV.tokenizer .inline_placeholder {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #777; PADDING-TOP: 5px
+}
+DIV.tokenizer .token {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zK/r/mD9hhq3V835.gif); COLOR: #000; BACKGROUND-REPEAT: no-repeat; WHITE-SPACE: nowrap
+}
+DIV.tokenizer .token SPAN {
+	BACKGROUND-POSITION: right top; DISPLAY: block; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zK/r/mD9hhq3V835.gif); BACKGROUND-REPEAT: no-repeat
+}
+DIV.tokenizer .token SPAN SPAN {
+	BACKGROUND-POSITION: right bottom
+}
+DIV.tokenizer .token SPAN SPAN SPAN {
+	BACKGROUND-POSITION: left bottom
+}
+DIV.tokenizer .token SPAN SPAN SPAN SPAN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+DIV.tokenizer_locked.tokenizer .token SPAN SPAN SPAN SPAN {
+	PADDING-RIGHT: 5px
+}
+HTML DIV.tokenizer_locked .token:hover {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zK/r/mD9hhq3V835.gif)
+}
+HTML DIV.tokenizer_locked .token:hover SPAN {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zK/r/mD9hhq3V835.gif)
+}
+DIV.tokenizer .token:hover {
+	BACKGROUND-IMAGE: url(http://c.static.ak.fbcdn.net/rsrc.php/zm/r/Ze4Z6J_Shqw.gif); TEXT-DECORATION: none
+}
+DIV.tokenizer .token:hover SPAN {
+	BACKGROUND-IMAGE: url(http://c.static.ak.fbcdn.net/rsrc.php/zm/r/Ze4Z6J_Shqw.gif); TEXT-DECORATION: none
+}
+DIV.tokenizer .token_selected {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zY/r/4A94TeChhwl.gif); COLOR: #fff; TEXT-DECORATION: none
+}
+DIV.tokenizer .token_selected SPAN {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zY/r/4A94TeChhwl.gif); COLOR: #fff; TEXT-DECORATION: none
+}
+DIV.tokenizer .token_selected:hover {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zY/r/4A94TeChhwl.gif); COLOR: #fff; TEXT-DECORATION: none
+}
+DIV.tokenizer .token_selected:hover SPAN {
+	BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zY/r/4A94TeChhwl.gif); COLOR: #fff; TEXT-DECORATION: none
+}
+DIV.tokenizer .token SPAN.x {
+	PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 5px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zV/r/IJYgcESal33.png) no-repeat -842px -64px; PADDING-BOTTOM: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+DIV.tokenizer .token SPAN.x_hover {
+	PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 5px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zV/r/IJYgcESal33.png) no-repeat -842px -64px; PADDING-BOTTOM: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+DIV.tokenizer .token:hover SPAN.x {
+	PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 5px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zV/r/IJYgcESal33.png) no-repeat -842px -64px; PADDING-BOTTOM: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+DIV.tokenizer .token:hover SPAN.x_hover {
+	PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 5px; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zV/r/IJYgcESal33.png) no-repeat -842px -64px; PADDING-BOTTOM: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+DIV.tokenizer_locked.tokenizer .token SPAN.x {
+	DISPLAY: none
+}
+DIV.tokenizer_locked.tokenizer .token SPAN.x_hover {
+	DISPLAY: none
+}
+DIV.standard_tokenizer DIV.tokenizer {
+	BORDER-RIGHT: #8f96bd 1px solid; BORDER-TOP: #8f96bd 1px solid; BORDER-LEFT: #8f96bd 1px solid; BORDER-BOTTOM: #8f96bd 1px solid
+}
+.typeahead_list .typeahead_suggestion .with_pic SMALL {
+	PADDING-LEFT: 0px
+}
+.pop_container_advanced {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; border-radius: 8px
+}
+.pop_content_old {
+	PADDING-LEFT: 10px; MARGIN-LEFT: -10px; POSITION: relative
+}
+.pop_container {
+	DIRECTION: ltr; POSITION: relative; TOP: 10px
+}
+.pop_topleft {
+	OVERFLOW: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px
+}
+.pop_topright {
+	OVERFLOW: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px
+}
+.pop_bottomleft {
+	OVERFLOW: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px
+}
+.pop_bottomright {
+	OVERFLOW: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px
+}
+.pop_topleft {
+	LEFT: -10px; BACKGROUND-IMAGE: url(http://e.static.ak.fbcdn.net/rsrc.php/zv/r/b9B5rP7CZUJ.png); BACKGROUND-REPEAT: no-repeat; TOP: -10px
+}
+.pop_topright {
+	RIGHT: -10px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zP/r/pbUw18P5OnW.png); BACKGROUND-REPEAT: no-repeat; TOP: -10px
+}
+.pop_bottomleft {
+	LEFT: -10px; BACKGROUND-IMAGE: url(http://e.static.ak.fbcdn.net/rsrc.php/zc/r/Civ9WLumChT.png); BOTTOM: -10px; BACKGROUND-REPEAT: no-repeat
+}
+.pop_bottomright {
+	RIGHT: -10px; BACKGROUND-IMAGE: url(http://f.static.ak.fbcdn.net/rsrc.php/zS/r/fc4z4Z6xzEI.png); BOTTOM: -10px; BACKGROUND-REPEAT: no-repeat
+}
+.pop_verticalslab {
+	BACKGROUND: #525252; FILTER: alpha(opacity=70); WIDTH: 100%; POSITION: absolute; HEIGHT: 100%
+}
+.pop_horizontalslab {
+	BACKGROUND: #525252; FILTER: alpha(opacity=70); WIDTH: 100%; POSITION: absolute; HEIGHT: 100%
+}
+.pop_verticalslab {
+	PADDING-BOTTOM: 20px; MARGIN: -10px 0px 0px 10px
+}
+.pop_horizontalslab {
+	PADDING-RIGHT: 20px; MARGIN: 0px
+}
+.generic_dialog {
+	Z-INDEX: 105; LEFT: 0px; OVERFLOW: visible; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 0px
+}
+#generic_dialog_iframe {
+	Z-INDEX: 3; FILTER: alpha(opacity=0); LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.generic_dialog_popup {
+	MARGIN: auto; OVERFLOW: visible; WIDTH: 465px; POSITION: relative; HEIGHT: 0px
+}
+.generic_dialog DIV.dialog_loading {
+	BORDER-RIGHT: #606060 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #606060 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 24px; PADDING-BOTTOM: 10px; BORDER-LEFT: #606060 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #606060 1px solid; BACKGROUND-COLOR: #f2f2f2
+}
+#generic_dialog_overlay {
+	Z-INDEX: 100; FILTER: alpha(opacity=50); WIDTH: 100%; POSITION: fixed; TOP: 0px; HEIGHT: 100%
+}
+.dark_dialog_overlay {
+	BACKGROUND-COLOR: #747474
+}
+.light_dialog_overlay {
+	BACKGROUND-COLOR: #fff
+}
+.pop_content {
+	DIRECTION: ltr
+}
+.pop_dialog_rtl .pop_content {
+	DIRECTION: rtl
+}
+.pop_content H2.dialog_title {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #6d84b4; MARGIN: 0px; BORDER-LEFT: #3b5998 1px solid; COLOR: #fff; BORDER-BOTTOM: #3b5998 1px
+}
+.pop_content H2.dialog_title .dialog_x {
+	MARGIN-TOP: -1px; PADDING-LEFT: 1px; BACKGROUND: #6d84b4; FLOAT: right
+}
+.pop_content H2.secure {
+	BACKGROUND: url(http://c.static.ak.fbcdn.net/rsrc.php/zu/r/jp8TzrZb6J1.png) #6d84b4 no-repeat 98% 50%
+}
+.pop_content H2.loading {
+	BACKGROUND: url(http://f.static.ak.fbcdn.net/rsrc.php/z-/r/AGUNXgX_Wx3.gif) #6d84b4 no-repeat 98% 50%
+}
+.pop_content H2.dialog_loading {
+	PADDING-RIGHT: 40px; BACKGROUND: url(http://f.static.ak.fbcdn.net/rsrc.php/z-/r/AGUNXgX_Wx3.gif) #6d84b4 no-repeat 400px 10px
+}
+.pop_content H2 SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pop_content .dialog_content {
+	BORDER-RIGHT: #555 1px solid; BORDER-TOP: #555 0px solid; BACKGROUND: #fff; BORDER-LEFT: #555 1px solid; BORDER-BOTTOM: #555 1px solid
+}
+.pop_content .dialog_body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px solid
+}
+.omitDialogFooter .pop_content .dialog_body {
+	BORDER-BOTTOM-WIDTH: 0px
+}
+.pop_content .dialog_summary {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #f2f2f2; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BORDER-BOTTOM: #ccc 1px solid
+}
+.pop_content .dialog_buttons {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #f2f2f2; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; POSITION: relative; TEXT-ALIGN: right
+}
+.pop_content .dialog_buttons_msg {
+	FLOAT: left; LINE-HEIGHT: 17px; PADDING-TOP: 4px
+}
+.pop_content .dialog_footer {
+	BACKGROUND: #f2f2f2 0px 50%
+}
+.full_bleed .pop_content .dialog_body {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIImageBlock_Content {
+	VERTICAL-ALIGN: top; WIDTH: auto; ZOOM: 1
+}
+.UIImageBlock_Image {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.UIImageBlock_Image .img {
+	DISPLAY: block
+}
+IMG.UIImageBlock_Image {
+	DISPLAY: block
+}
+I.UIImageBlock_Image {
+	DISPLAY: block
+}
+.UIImageBlock_Ext {
+	FLOAT: right
+}
+.UIImageBlock_ICON_Image {
+	MARGIN-RIGHT: 5px
+}
+.UIImageBlock_ICON_Content {
+	PADDING-TOP: 1px
+}
+.UIImageBlock_SMALL_Image {
+	MARGIN-RIGHT: 8px
+}
+.UIImageBlock_MED_Image {
+	MARGIN-RIGHT: 10px
+}
+.UIImageBlock_ENT_Image {
+	MARGIN-RIGHT: 10px
+}
+.UIImageBlock_Entity .UIImageBlock_Content {
+	VERTICAL-ALIGN: middle; HEIGHT: auto
+}
+.UIImageBlock_Entity IMG.UIImageBlock_Image {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.UIImageBlock_Entity I.UIImageBlock_Image {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.UIImageBlock_Entity .UIImageBlock_Image .img {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.UIImageBlock_Entity .UIImageBlock_Ext {
+	MARGIN-TOP: 14px; PADDING-LEFT: 8px
+}
+.uiButton {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: inline-block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png) #eee 0px 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #999 1px solid; CURSOR: pointer; LINE-HEIGHT: normal! important; PADDING-TOP: 2px; BORDER-BOTTOM: #888 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-ALIGN: center; TEXT-DECORATION: none; box-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+}
+.uiButtonSuppressed:active {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: inline-block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png) #eee 0px 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #999 1px solid; CURSOR: pointer; LINE-HEIGHT: normal! important; PADDING-TOP: 2px; BORDER-BOTTOM: #888 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-ALIGN: center; TEXT-DECORATION: none; box-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+}
+.uiButtonSuppressed:focus {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: inline-block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png) #eee 0px 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #999 1px solid; CURSOR: pointer; LINE-HEIGHT: normal! important; PADDING-TOP: 2px; BORDER-BOTTOM: #888 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-ALIGN: center; TEXT-DECORATION: none; box-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+}
+.uiButtonSuppressed:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: inline-block; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png) #eee 0px 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; BORDER-LEFT: #999 1px solid; CURSOR: pointer; LINE-HEIGHT: normal! important; PADDING-TOP: 2px; BORDER-BOTTOM: #888 1px solid; WHITE-SPACE: nowrap; POSITION: relative; TEXT-ALIGN: center; TEXT-DECORATION: none; box-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+}
+.uiButton + .uiButton {
+	MARGIN-LEFT: 4px
+}
+.uiButton:hover {
+	TEXT-DECORATION: none
+}
+.uiButton:active {
+	BACKGROUND: #ddd; BORDER-BOTTOM-COLOR: #999; box-shadow: 0 1px 0 rgba(0, 0, 0, .05)
+}
+.uiButtonDepressed {
+	BACKGROUND: #ddd; BORDER-BOTTOM-COLOR: #999; box-shadow: 0 1px 0 rgba(0, 0, 0, .05)
+}
+.uiButton .img {
+	MARGIN-TOP: 2px; VERTICAL-ALIGN: top
+}
+.uiButtonLarge .img {
+	MARGIN-TOP: 4px
+}
+.uiButton .customimg {
+	MARGIN-TOP: 0px
+}
+.uiButton .uiButtonText {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: inline-block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; CURSOR: pointer; COLOR: #333; PADDING-TOP: 1px; FONT-FAMILY: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px; outline: none
+}
+.uiButton INPUT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: inline-block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px; CURSOR: pointer; COLOR: #333; PADDING-TOP: 1px; FONT-FAMILY: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; WHITE-SPACE: nowrap; BORDER-RIGHT-WIDTH: 0px; outline: none
+}
+.uiButton INPUT {
+	PADDING-BOTTOM: 0px; OVERFLOW: visible
+}
+.uiButtonSpecial {
+	BACKGROUND-POSITION: 0px -96px; BORDER-LEFT-COLOR: #3b6e22; BORDER-BOTTOM-COLOR: #2c5115; BORDER-TOP-COLOR: #3b6e22; BACKGROUND-COLOR: #69a74e; BORDER-RIGHT-COLOR: #3b6e22
+}
+.uiButtonSpecial:active {
+	BACKGROUND: #609946; BORDER-BOTTOM-COLOR: #3b6e22
+}
+.uiButtonDisabled.uiButtonSpecial {
+	BORDER-LEFT-COLOR: #9db791; BACKGROUND: #b4d3a7; BORDER-BOTTOM-COLOR: #9db791; BORDER-TOP-COLOR: #9db791; BORDER-RIGHT-COLOR: #9db791
+}
+.uiButtonDisabled.uiButtonSpecial:active {
+	BORDER-LEFT-COLOR: #9db791; BACKGROUND: #b4d3a7; BORDER-BOTTOM-COLOR: #9db791; BORDER-TOP-COLOR: #9db791; BORDER-RIGHT-COLOR: #9db791
+}
+.uiButtonDisabled.uiButtonSpecial:focus {
+	BORDER-LEFT-COLOR: #9db791; BACKGROUND: #b4d3a7; BORDER-BOTTOM-COLOR: #9db791; BORDER-TOP-COLOR: #9db791; BORDER-RIGHT-COLOR: #9db791
+}
+.uiButtonDisabled.uiButtonSpecial:hover {
+	BORDER-LEFT-COLOR: #9db791; BACKGROUND: #b4d3a7; BORDER-BOTTOM-COLOR: #9db791; BORDER-TOP-COLOR: #9db791; BORDER-RIGHT-COLOR: #9db791
+}
+.uiButtonConfirm {
+	BACKGROUND-POSITION: 0px -48px; BORDER-LEFT-COLOR: #29447e; BORDER-BOTTOM-COLOR: #1a356e; BORDER-TOP-COLOR: #29447e; BACKGROUND-COLOR: #5b74a8; BORDER-RIGHT-COLOR: #29447e
+}
+.uiButtonConfirm:active {
+	BACKGROUND: #4f6aa3; BORDER-BOTTOM-COLOR: #29447e
+}
+.uiButtonDisabled.uiButtonConfirm {
+	BORDER-LEFT-COLOR: #94a2bf; BACKGROUND: #adbad4; BORDER-BOTTOM-COLOR: #94a2bf; BORDER-TOP-COLOR: #94a2bf; BORDER-RIGHT-COLOR: #94a2bf
+}
+.uiButtonDisabled.uiButtonConfirm:active {
+	BORDER-LEFT-COLOR: #94a2bf; BACKGROUND: #adbad4; BORDER-BOTTOM-COLOR: #94a2bf; BORDER-TOP-COLOR: #94a2bf; BORDER-RIGHT-COLOR: #94a2bf
+}
+.uiButtonDisabled.uiButtonConfirm:focus {
+	BORDER-LEFT-COLOR: #94a2bf; BACKGROUND: #adbad4; BORDER-BOTTOM-COLOR: #94a2bf; BORDER-TOP-COLOR: #94a2bf; BORDER-RIGHT-COLOR: #94a2bf
+}
+.uiButtonDisabled.uiButtonConfirm:hover {
+	BORDER-LEFT-COLOR: #94a2bf; BACKGROUND: #adbad4; BORDER-BOTTOM-COLOR: #94a2bf; BORDER-TOP-COLOR: #94a2bf; BORDER-RIGHT-COLOR: #94a2bf
+}
+.uiButtonSpecial .uiButtonText {
+	COLOR: #fff
+}
+.uiButtonSpecial INPUT {
+	COLOR: #fff
+}
+.uiButtonDisabled.uiButtonSpecial .uiButtonText {
+	COLOR: #fff
+}
+.uiButtonDisabled.uiButtonSpecial INPUT {
+	COLOR: #fff
+}
+.uiButtonConfirm .uiButtonText {
+	COLOR: #fff
+}
+.uiButtonConfirm INPUT {
+	COLOR: #fff
+}
+.uiButtonDisabled.uiButtonConfirm .uiButtonText {
+	COLOR: #fff
+}
+.uiButtonDisabled.uiButtonConfirm INPUT {
+	COLOR: #fff
+}
+.uiButtonDisabled {
+	BORDER-LEFT-COLOR: #c8c8c8; BACKGROUND: #f2f2f2; BORDER-BOTTOM-COLOR: #c8c8c8; BORDER-TOP-COLOR: #c8c8c8; BORDER-RIGHT-COLOR: #c8c8c8; box-shadow: none
+}
+.uiButtonDisabled:active {
+	BORDER-LEFT-COLOR: #c8c8c8; BACKGROUND: #f2f2f2; BORDER-BOTTOM-COLOR: #c8c8c8; BORDER-TOP-COLOR: #c8c8c8; BORDER-RIGHT-COLOR: #c8c8c8; box-shadow: none
+}
+.uiButtonDisabled:focus {
+	BORDER-LEFT-COLOR: #c8c8c8; BACKGROUND: #f2f2f2; BORDER-BOTTOM-COLOR: #c8c8c8; BORDER-TOP-COLOR: #c8c8c8; BORDER-RIGHT-COLOR: #c8c8c8; box-shadow: none
+}
+.uiButtonDisabled:hover {
+	BORDER-LEFT-COLOR: #c8c8c8; BACKGROUND: #f2f2f2; BORDER-BOTTOM-COLOR: #c8c8c8; BORDER-TOP-COLOR: #c8c8c8; BORDER-RIGHT-COLOR: #c8c8c8; box-shadow: none
+}
+.uiButtonDisabled .img {
+	FILTER: alpha(opacity=50)
+}
+.uiButtonDisabled .uiButtonText {
+	COLOR: #b8b8b8
+}
+.uiButtonDisabled INPUT {
+	COLOR: #b8b8b8
+}
+.uiButtonDepressed {
+	CURSOR: default
+}
+.uiButtonDepressed .uiButtonText {
+	CURSOR: default
+}
+.uiButtonDepressed INPUT {
+	CURSOR: default
+}
+.uiButtonDisabled {
+	CURSOR: default
+}
+.uiButtonDisabled .uiButtonText {
+	CURSOR: default
+}
+.uiButtonDisabled INPUT {
+	CURSOR: default
+}
+.uiButtonLarge {
+	FONT-SIZE: 13px
+}
+.uiButtonLarge .uiButtonText {
+	FONT-SIZE: 13px
+}
+.uiButtonLarge INPUT {
+	FONT-SIZE: 13px
+}
+.uiButtonLarge INPUT {
+	PADDING-RIGHT: 0px; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.uiButtonSuppressed {
+	BORDER-LEFT-COLOR: transparent; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-COLOR: transparent; BORDER-TOP-COLOR: transparent; BORDER-RIGHT-COLOR: transparent; box-shadow: none
+}
+.uiButtonNoText .img {
+	MARGIN-LEFT: -1px; MARGIN-RIGHT: -1px
+}
+.uiCloseButton {
+	PADDING-RIGHT: 0px; DISPLAY: inline-block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; PADDING-TOP: 0px
+}
+LABEL.uiCloseButton {
+	OVERFLOW: hidden
+}
+.uiCloseButton INPUT {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 18px; FILTER: alpha(opacity=0); PADDING-BOTTOM: 18px; CURSOR: pointer; PADDING-TOP: 18px; opacity: 0; outline: none
+}
+.uiCloseButton {
+	BACKGROUND-IMAGE: url(http://static.ak.fbcdn.net/rsrc.php/z5/r/Yz_2RL5XOEG.png); WIDTH: 15px; HEIGHT: 15px
+}
+.uiCloseButtonSmall {
+	MARGIN-TOP: 1px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/za/r/1Be-brvKO2y.png); WIDTH: 11px; HEIGHT: 11px
+}
+.uiCloseButtonSmallDeprecated {
+	BACKGROUND-IMAGE: url(http://static.ak.fbcdn.net/rsrc.php/zb/r/fvbRNcqGJoq.gif)
+}
+.uiCloseButtonDark {
+	BACKGROUND-POSITION: left -15px
+}
+.uiCloseButton:hover {
+	BACKGROUND-POSITION: left -30px
+}
+.uiCloseButton:focus {
+	BACKGROUND-POSITION: left -30px
+}
+.uiCloseButton:active {
+	BACKGROUND-POSITION: left -45px
+}
+.uiCloseButtonSmallDark {
+	BACKGROUND-POSITION: left -11px
+}
+.uiCloseButtonSmall:hover {
+	BACKGROUND-POSITION: left -22px
+}
+.uiCloseButtonSmall:focus {
+	BACKGROUND-POSITION: left -22px
+}
+.uiCloseButtonSmall:active {
+	BACKGROUND-POSITION: left -33px
+}
+.uiLinkButton INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; OVERFLOW: visible; CURSOR: pointer; COLOR: #3b5998; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; FONT-FAMILY: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.uiLinkButton:hover {
+	COLOR: #3b5998; TEXT-DECORATION: underline
+}
+.uiLinkButton INPUT:hover {
+	COLOR: #3b5998; TEXT-DECORATION: underline
+}
+.uiLinkButton INPUT:focus {
+	COLOR: #3b5998; TEXT-DECORATION: underline
+}
+.uiLinkButton INPUT:active {
+	COLOR: #3b5998; TEXT-DECORATION: underline
+}
+.uiLinkButtonSubtle INPUT {
+	COLOR: #808080
+}
+.uiLinkButtonSubtle:hover {
+	COLOR: #808080
+}
+.uiLinkButtonSubtle INPUT:hover {
+	COLOR: #808080
+}
+.uiLinkButtonSubtle INPUT:focus {
+	COLOR: #808080
+}
+.uiLinkButtonSubtle INPUT:active {
+	COLOR: #808080
+}
+.uiLinkButton INPUT.async_saving {
+	TEXT-DECORATION: none
+}
+.uiBoxGray {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #f2f2f2
+}
+.uiBoxWhite {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff
+}
+.uiBoxLightblue {
+	BORDER-RIGHT: #d8dfea 1px solid; BORDER-TOP: #d8dfea 1px solid; BORDER-LEFT: #d8dfea 1px solid; BORDER-BOTTOM: #d8dfea 1px solid; BACKGROUND-COLOR: #edeff4
+}
+.uiBoxRed {
+	BORDER-RIGHT: #dd3c10 1px solid; BORDER-TOP: #dd3c10 1px solid; BORDER-LEFT: #dd3c10 1px solid; BORDER-BOTTOM: #dd3c10 1px solid; BACKGROUND-COLOR: #ffebe8
+}
+.uiBoxYellow {
+	BORDER-RIGHT: #e2c822 1px solid; BORDER-TOP: #e2c822 1px solid; BORDER-LEFT: #e2c822 1px solid; BORDER-BOTTOM: #e2c822 1px solid; BACKGROUND-COLOR: #fff9d7
+}
+.uiBoxOverlay {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#D8FFFFFF', endColorstr='#D8FFFFFF'); BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #3b5998 1px solid; ZOOM: 1
+}
+.noborder {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.topborder {
+	BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.bottomborder {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.lfloat {
+	FLOAT: left
+}
+.rfloat {
+	FLOAT: right
+}
+.uiLinkSubtle {
+	COLOR: #808080
+}
+.uiListItem {
+	DISPLAY: block
+}
+.uiListHorizontalItem {
+	FLOAT: left
+}
+.uiListLight {
+	BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-BOTTOM-STYLE: solid
+}
+.uiListMedium {
+	BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-BOTTOM-STYLE: solid
+}
+.uiListDark {
+	BORDER-TOP-STYLE: solid; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-BOTTOM-STYLE: solid
+}
+.uiListHorizontalItemBorder {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.uiListVerticalItemBorder {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.uiListItem:first-child {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.uiListLight {
+	BORDER-LEFT-COLOR: #e9e9e9; BORDER-BOTTOM-COLOR: #e9e9e9; BORDER-TOP-COLOR: #e9e9e9; BORDER-RIGHT-COLOR: #e9e9e9
+}
+.uiListMedium {
+	BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; BORDER-RIGHT-COLOR: #ccc
+}
+.uiListDark {
+	BORDER-LEFT-COLOR: #aaa; BORDER-BOTTOM-COLOR: #aaa; BORDER-TOP-COLOR: #aaa; BORDER-RIGHT-COLOR: #aaa
+}
+.uiListBulleted {
+	MARGIN-LEFT: 12px; COLOR: #3b5998; LIST-STYLE-TYPE: square
+}
+.pas {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pam {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.pal {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.pts {
+	PADDING-TOP: 5px
+}
+.ptm {
+	PADDING-TOP: 10px
+}
+.ptl {
+	PADDING-TOP: 20px
+}
+.prs {
+	PADDING-RIGHT: 5px
+}
+.prm {
+	PADDING-RIGHT: 10px
+}
+.prl {
+	PADDING-RIGHT: 20px
+}
+.pbs {
+	PADDING-BOTTOM: 5px
+}
+.pbm {
+	PADDING-BOTTOM: 10px
+}
+.pbl {
+	PADDING-BOTTOM: 20px
+}
+.pls {
+	PADDING-LEFT: 5px
+}
+.plm {
+	PADDING-LEFT: 10px
+}
+.pll {
+	PADDING-LEFT: 20px
+}
+.phs {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+.phm {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.phl {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px
+}
+.pvs {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pvm {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.pvl {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.mas {
+	MARGIN: 5px
+}
+.mam {
+	MARGIN: 10px
+}
+.mal {
+	MARGIN: 20px
+}
+.mts {
+	MARGIN-TOP: 5px
+}
+.mtm {
+	MARGIN-TOP: 10px
+}
+.mtl {
+	MARGIN-TOP: 20px
+}
+.mrs {
+	MARGIN-RIGHT: 5px
+}
+.mrm {
+	MARGIN-RIGHT: 10px
+}
+.mrl {
+	MARGIN-RIGHT: 20px
+}
+.mbs {
+	MARGIN-BOTTOM: 5px
+}
+.mbm {
+	MARGIN-BOTTOM: 10px
+}
+.mbl {
+	MARGIN-BOTTOM: 20px
+}
+.mls {
+	MARGIN-LEFT: 5px
+}
+.mlm {
+	MARGIN-LEFT: 10px
+}
+.mll {
+	MARGIN-LEFT: 20px
+}
+.mhs {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+.mhm {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.mhl {
+	MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px
+}
+.mvs {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+.mvm {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.mvl {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px
+}
+.uiTextTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #333
+}
+.uiTextSubtitle {
+	FONT-SIZE: 11px; COLOR: #808080
+}
+.uiTextMetadata {
+	FONT-SIZE: 9px; COLOR: #808080
+}
+.uiTextTitle {
+	LINE-HEIGHT: 14px
+}
+.uiTextSubtitle {
+	LINE-HEIGHT: 14px
+}
+.uiTextHighlight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff8cc; PADDING-BOTTOM: 1px; PADDING-TOP: 0px; BORDER-BOTTOM: #ffe222 1px solid
+}
+.fss {
+	FONT-SIZE: 9px
+}
+.fsm {
+	FONT-SIZE: 11px
+}
+.fsl {
+	FONT-SIZE: 13px
+}
+.fsxl {
+	FONT-SIZE: 16px
+}
+.fsxxl {
+	FONT-SIZE: 18px
+}
+.fwn {
+	FONT-WEIGHT: normal
+}
+.fwb {
+	FONT-WEIGHT: bold
+}
+.fcb {
+	COLOR: #333
+}
+.fcg {
+	COLOR: #808080
+}
+.uiSelector .uiCloseButton {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; DISPLAY: block; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+.uiSelector .openToggler .uiCloseButton {
+	BACKGROUND-POSITION: left -30px
+}
+.uiSelector .openToggler .uiCloseButtonSmall {
+	BACKGROUND-POSITION: left -22px
+}
+.uiMenu {
+	BORDER-RIGHT: #777 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #777 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; BORDER-LEFT: #777 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #293e6a 2px solid; BACKGROUND-COLOR: #fff
+}
+.uiMenuItem .itemAnchor {
+	BORDER-RIGHT: #fff 0px solid; PADDING-RIGHT: 16px; BORDER-TOP: #fff 1px solid; DISPLAY: block; PADDING-LEFT: 22px; FONT-WEIGHT: normal; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 0px solid; COLOR: #111; LINE-HEIGHT: 16px; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 1px solid; TEXT-DECORATION: none
+}
+.uiMenuItem A:hover {
+	TEXT-DECORATION: none
+}
+.uiMenuItem A:active {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; COLOR: #fff; BORDER-TOP-COLOR: #3b5998; BACKGROUND-COLOR: #6d84b4; BORDER-RIGHT-COLOR: #3b5998; outline: none
+}
+.uiMenuItem A:focus {
+	BORDER-LEFT-COLOR: #3b5998; BORDER-BOTTOM-COLOR: #3b5998; COLOR: #fff; BORDER-TOP-COLOR: #3b5998; BACKGROUND-COLOR: #6d84b4; BORDER-RIGHT-COLOR: #3b5998; outline: none
+}
+.uiMenu .checked .itemAnchor {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://e.static.ak.fbcdn.net/rsrc.php/zu/r/6NHt8H5uyPf.png) no-repeat left 4px
+}
+.uiMenu .checked A:active {
+	BACKGROUND-POSITION: left -56px; BACKGROUND-COLOR: #6d84b4
+}
+.uiMenu .checked A:focus {
+	BACKGROUND-POSITION: left -56px; BACKGROUND-COLOR: #6d84b4
+}
+.uiMenuItem .itemLabel {
+	DISPLAY: block; WHITE-SPACE: nowrap
+}
+.uiMenuItem .disabledAnchor {
+	DISPLAY: none
+}
+.uiMenu .disabled .itemAnchor {
+	DISPLAY: none
+}
+.uiMenu .disabled .disabledAnchor {
+	DISPLAY: block
+}
+.uiMenu .disabled .itemAnchor {
+	FILTER: alpha(opacity=55); opacity: .55
+}
+.uiMenuItemGroup .groupTitle {
+	MARGIN: 0px 16px 3px 22px
+}
+.uiMenuSeparator {
+	FONT-SIZE: 0px; MARGIN: 3px 7px 6px; LINE-HEIGHT: 0; PADDING-TOP: 1px; BORDER-BOTTOM: #ddd 1px solid
+}
+.uiSelector {
+	DISPLAY: inline; MAX-WIDTH: 200px; VERTICAL-ALIGN: top; ZOOM: 1
+}
+.uiSelector .wrap {
+	POSITION: relative
+}
+.uiSelector SELECT {
+	DISPLAY: none
+}
+.no_js FORM .uiSelectorButton {
+	DISPLAY: none
+}
+.no_js FORM .uiSelector SELECT {
+	DISPLAY: inline
+}
+.uiSelector .uiButton {
+	BACKGROUND-IMAGE: none
+}
+.uiSelector .uiButton:active {
+	BACKGROUND-IMAGE: none
+}
+.uiSelector .uiButton:focus {
+	BACKGROUND-IMAGE: none
+}
+.uiSelector .uiButton:hover {
+	BACKGROUND-IMAGE: none
+}
+.uiSelector .uiSelectorButton:active {
+	BACKGROUND-COLOR: #ddd
+}
+.uiSelector .openToggler .uiSelectorButton {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #6d84b4 1px solid; BACKGROUND-COLOR: #6d84b4; box-shadow: none
+}
+.uiSelector .openToggler .uiSelectorButton:active {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #6d84b4 1px solid; BACKGROUND-COLOR: #6d84b4; box-shadow: none
+}
+.uiSelector .openToggler .uiSelectorButton:focus {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #6d84b4 1px solid; BACKGROUND-COLOR: #6d84b4; box-shadow: none
+}
+.uiSelector .openToggler .uiSelectorButton:hover {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #6d84b4 1px solid; BACKGROUND-COLOR: #6d84b4; box-shadow: none
+}
+.uiSelectorNormal .uiSelectorChevronOnly {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+.uiSelectorNormal .uiSelectorChevronOnly:active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+.uiSelectorNormal .uiSelectorChevronOnly:focus {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+.uiSelectorNormal .uiSelectorChevronOnly:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+.uiSelectorNormal .uiSelectorButton {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiSelectorButton:active {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiSelectorButton:focus {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiSelectorButton:hover {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiButtonSuppressed:active {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiButtonSuppressed:focus {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiButtonSuppressed:hover {
+	PADDING-RIGHT: 23px; BACKGROUND-POSITION: right -144px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zq/r/K3tOGSfSE3X.png); MAX-WIDTH: 169px; BACKGROUND-REPEAT: no-repeat
+}
+.uiSelectorNormal .uiButtonDisabled {
+	BACKGROUND-POSITION: right -288px
+}
+.uiSelectorNormal A.uiButtonDisabled:active {
+	BACKGROUND-POSITION: right -288px
+}
+.uiSelectorNormal A.uiButtonDisabled:focus {
+	BACKGROUND-POSITION: right -288px
+}
+.uiSelectorNormal A.uiButtonDisabled:hover {
+	BACKGROUND-POSITION: right -288px
+}
+.uiSelectorNormal .uiButtonDisabled.uiButtonSuppressed {
+	BACKGROUND-POSITION: right -337px
+}
+.uiSelectorNormal .uiSelectorButton:active {
+	BACKGROUND-POSITION: right -241px
+}
+.uiSelectorNormal .uiButtonSuppressed {
+	BACKGROUND-POSITION: right -241px
+}
+.uiSelectorNormal .openToggler .uiSelectorButton {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiSelectorButton:active {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiSelectorButton:focus {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiSelectorButton:hover {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiButtonSuppressed {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiButtonSuppressed:active {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiButtonSuppressed:focus {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .openToggler .uiButtonSuppressed:hover {
+	BACKGROUND-POSITION: right -192px
+}
+.uiSelectorNormal .uiSelectorButton .img {
+	FLOAT: left
+}
+.uiSelectorNormal .uiSelectorButton .uiButtonText {
+	MAX-WIDTH: 169px; VERTICAL-ALIGN: top; OVERFLOW: hidden; TEXT-OVERFLOW: ellipsis
+}
+.uiSelectorNormal .uiSelectorBigButtonLabel .img {
+	FLOAT: left
+}
+.uiSelectorNormal .uiSelectorBigButtonLabel .uiButtonText {
+	DISPLAY: block
+}
+.uiSelectorNormal .openToggler .uiSelectorButton .uiButtonText {
+	COLOR: #fff
+}
+.uiSelectorMenuWrapper {
+	MARGIN-TOP: -1px; MIN-WIDTH: 100%; RIGHT: auto; LEFT: 0px; VISIBILITY: hidden; MAX-WIDTH: 340px; BOTTOM: auto; POSITION: absolute; TOP: 100%
+}
+.openToggler .uiSelectorMenuWrapper {
+	Z-INDEX: -1; VISIBILITY: visible
+}
+.uiSelectorRight .uiSelectorMenuWrapper {
+	RIGHT: 0px; LEFT: auto
+}
+.uiSelectorMenuWrapper .loading {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.uiSelectorMenuWrapper .loading SPAN {
+	DISPLAY: block; BACKGROUND: url(http://static.ak.fbcdn.net/rsrc.php/zb/r/GsNJNwuI-UM.gif) no-repeat 0px 0px; MARGIN: 0px auto; WIDTH: 16px; HEIGHT: 11px
+}
+.uiSelector .uiMenuItem .itemLabel {
+	MAX-WIDTH: 300px; TEXT-OVERFLOW: ellipsis
+}
+.uiSelector .uiSelectorBigMenuLabel .itemLabel {
+	MIN-WIDTH: 300px; OVERFLOW: hidden
+}
+.uiTextareaNoResize {
+	resize: none
+}
+.uiTextareaAutogrow {
+	OVERFLOW: hidden
+}
+.uiHeader H2 {
+	FONT-SIZE: 16px; COLOR: #1c2a47
+}
+.uiHeader H2 A {
+	COLOR: #1c2a47
+}
+.uiHeader H3 {
+	FONT-SIZE: 11px; COLOR: #333
+}
+.uiHeader H4 {
+	FONT-SIZE: 11px; COLOR: #333
+}
+.uiHeader H5 {
+	FONT-SIZE: 11px; COLOR: #666
+}
+.uiHeaderWithImage .uiHeaderTop {
+	POSITION: relative
+}
+.uiHeaderWithImage .uiHeaderTitle {
+	PADDING-LEFT: 22px
+}
+.uiHeaderImage {
+	LEFT: 0px; POSITION: absolute
+}
+.uiHeader H2 .uiHeaderImage {
+	TOP: 2px
+}
+.uiHeaderTopBorder {
+	BORDER-TOP: #aaa 1px solid; PADDING-TOP: 0.5em
+}
+DIV.uiHeaderTopBorder {
+	MARGIN-LEFT: 0px
+}
+.uiHeaderTopAndBottomBorder {
+	PADDING-RIGHT: 0px; BORDER-TOP: #aaa 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #e9e9e9 1px solid
+}
+.uiHeaderMiddleBorder {
+	MARGIN: 0.5em 0px 1.5em; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; HEIGHT: 0.8em
+}
+.uiHeaderMiddleBorder .uiHeaderTitle {
+	POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #fff
+}
+.uiHeaderMiddleBorder .uiHeaderActions {
+	POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #fff
+}
+.uiHeaderMiddleBorder .uiHeaderTitle {
+	PADDING-RIGHT: 0.5em; LEFT: 0px
+}
+.uiHeaderMiddleBorder .uiHeaderActions {
+	PADDING-LEFT: 0.5em; RIGHT: 0px
+}
+.uiHeaderMiddleBorder .uiButton {
+	MARGIN-TOP: -2px
+}
+.uiHeaderBottomBorder {
+	PADDING-BOTTOM: 0.5em; BORDER-BOTTOM: #aaa 1px solid
+}
+.uiHeaderPage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 16px; PADDING-TOP: 6px
+}
+.uiHeaderPage .uiHeaderTitle {
+	MIN-HEIGHT: 20px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; LINE-HEIGHT: 18px
+}
+.uiHeaderPage .uiHeaderActions {
+	MARGIN-TOP: 0px; BOTTOM: 1px; LINE-HEIGHT: normal; POSITION: relative
+}
+.uiHeaderPage .uiHeaderTop .uiTextTitle {
+	MARGIN-TOP: 3px
+}
+.uiHeaderPage .uiHeaderTop .fsl {
+	MARGIN-TOP: 3px
+}
+.uiHeaderNav {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 5px; BORDER-LEFT-COLOR: #eee; BORDER-BOTTOM-COLOR: #eee; PADDING-BOTTOM: 3px; MARGIN: 8px 0px 0px 6px; BORDER-TOP-COLOR: #eee; PADDING-TOP: 7px; BORDER-RIGHT-COLOR: #eee
+}
+.uiHeaderNavEmpty {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 8px
+}
+.uiHeaderNav H4 {
+	COLOR: #808080
+}
+.uiHeaderSection {
+	PADDING-RIGHT: 5px; BORDER-TOP: #e2e2e2 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px; BACKGROUND-COLOR: #f2f2f2; BORDER-BOTTOM-STYLE: none
+}
+.uiSideHeader {
+	PADDING-RIGHT: 5px; BORDER-TOP: #e2e2e2 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 4px; BACKGROUND-COLOR: #f2f2f2; BORDER-BOTTOM-STYLE: none
+}
+.uiIconLink {
+	POSITION: relative
+}
+.uiIconLink .img {
+	LEFT: 0px; VERTICAL-ALIGN: middle; POSITION: absolute
+}
+.uiTooltip {
+	ZOOM: 1; POSITION: relative
+}
+.uiTooltip:active {
+	Z-INDEX: 1; TEXT-DECORATION: none; outline: none
+}
+.uiTooltip:focus {
+	Z-INDEX: 1; TEXT-DECORATION: none; outline: none
+}
+.uiTooltip:hover {
+	Z-INDEX: 1; TEXT-DECORATION: none; outline: none
+}
+.uiTooltipWrap {
+	DISPLAY: none
+}
+.uiTooltipWrap:hover {
+	VISIBILITY: hidden
+}
+.uiTooltipText {
+	PADDING-RIGHT: 8px; DISPLAY: block; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; COLOR: #fff! important; LINE-HEIGHT: 14px; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #282828
+}
+.uiTooltip:active .uiTooltipWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://d.static.ak.fbcdn.net/rsrc.php/z1/r/uVR6w3wRHEJ.gif) no-repeat left bottom; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 100%; PADDING-TOP: 0px; POSITION: absolute
+}
+.uiTooltip:focus .uiTooltipWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://d.static.ak.fbcdn.net/rsrc.php/z1/r/uVR6w3wRHEJ.gif) no-repeat left bottom; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 100%; PADDING-TOP: 0px; POSITION: absolute
+}
+.uiTooltip:hover .uiTooltipWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://d.static.ak.fbcdn.net/rsrc.php/z1/r/uVR6w3wRHEJ.gif) no-repeat left bottom; LEFT: 0px; PADDING-BOTTOM: 4px; BOTTOM: 100%; PADDING-TOP: 0px; POSITION: absolute
+}
+.uiTooltip:active .center {
+	PADDING-LEFT: 10px; LEFT: 50%; MARGIN-LEFT: -10px
+}
+.uiTooltip:focus .center {
+	PADDING-LEFT: 10px; LEFT: 50%; MARGIN-LEFT: -10px
+}
+.uiTooltip:hover .center {
+	PADDING-LEFT: 10px; LEFT: 50%; MARGIN-LEFT: -10px
+}
+.uiTooltip .center .uiTooltipText {
+	MARGIN-TOP: -1px; LEFT: -50%; PADDING-TOP: 5px; POSITION: relative
+}
+.uiTooltip .centerbottom .uiTooltipText {
+	MARGIN-LEFT: 18px
+}
+.uiTooltip:active .right {
+	BACKGROUND-POSITION: right bottom; RIGHT: 0px; LEFT: auto
+}
+.uiTooltip:focus .right {
+	BACKGROUND-POSITION: right bottom; RIGHT: 0px; LEFT: auto
+}
+.uiTooltip:hover .right {
+	BACKGROUND-POSITION: right bottom; RIGHT: 0px; LEFT: auto
+}
+.uiTooltip:active .middle {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; PADDING-LEFT: 4px; RIGHT: 100%; LEFT: auto; BACKGROUND-IMAGE: url(http://f.static.ak.fbcdn.net/rsrc.php/zR/r/kPCE0g_tKJs.gif); PADDING-BOTTOM: 4px; MARGIN: -4px 4px 0px 0px; PADDING-TOP: 4px; TOP: 50%
+}
+.uiTooltip:focus .middle {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; PADDING-LEFT: 4px; RIGHT: 100%; LEFT: auto; BACKGROUND-IMAGE: url(http://f.static.ak.fbcdn.net/rsrc.php/zR/r/kPCE0g_tKJs.gif); PADDING-BOTTOM: 4px; MARGIN: -4px 4px 0px 0px; PADDING-TOP: 4px; TOP: 50%
+}
+.uiTooltip:hover .middle {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: right top; PADDING-LEFT: 4px; RIGHT: 100%; LEFT: auto; BACKGROUND-IMAGE: url(http://f.static.ak.fbcdn.net/rsrc.php/zR/r/kPCE0g_tKJs.gif); PADDING-BOTTOM: 4px; MARGIN: -4px 4px 0px 0px; PADDING-TOP: 4px; TOP: 50%
+}
+.uiTooltip .middle .uiTooltipText {
+	MARGIN-TOP: -10px; POSITION: relative
+}
+.uiTooltip:active .rightmiddle {
+	BACKGROUND-POSITION: left top; RIGHT: auto; LEFT: 100%; BACKGROUND-IMAGE: url(http://d.static.ak.fbcdn.net/rsrc.php/zY/r/_ZWZupdaAgS.gif); MARGIN: -4px 0px 0px 4px
+}
+.uiTooltip:focus .rightmiddle {
+	BACKGROUND-POSITION: left top; RIGHT: auto; LEFT: 100%; BACKGROUND-IMAGE: url(http://d.static.ak.fbcdn.net/rsrc.php/zY/r/_ZWZupdaAgS.gif); MARGIN: -4px 0px 0px 4px
+}
+.uiTooltip:hover .rightmiddle {
+	BACKGROUND-POSITION: left top; RIGHT: auto; LEFT: 100%; BACKGROUND-IMAGE: url(http://d.static.ak.fbcdn.net/rsrc.php/zY/r/_ZWZupdaAgS.gif); MARGIN: -4px 0px 0px 4px
+}
+.uiTooltip:active .bottom {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zX/r/k2R_CZuPy2I.png); PADDING-BOTTOM: 0px; BOTTOM: auto; PADDING-TOP: 4px; TOP: 100%
+}
+.uiTooltip:focus .bottom {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zX/r/k2R_CZuPy2I.png); PADDING-BOTTOM: 0px; BOTTOM: auto; PADDING-TOP: 4px; TOP: 100%
+}
+.uiTooltip:hover .bottom {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left top; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(http://b.static.ak.fbcdn.net/rsrc.php/zX/r/k2R_CZuPy2I.png); PADDING-BOTTOM: 0px; BOTTOM: auto; PADDING-TOP: 4px; TOP: 100%
+}
+.uiTooltip:active .rightbottom {
+	BACKGROUND-POSITION: right top
+}
+.uiTooltip:focus .rightbottom {
+	BACKGROUND-POSITION: right top
+}
+.uiTooltip:hover .rightbottom {
+	BACKGROUND-POSITION: right top
+}
+.uiTooltipDisabled:active .uiTooltipWrap {
+	DISPLAY: none
+}
+.uiTooltipDisabled:focus .uiTooltipWrap {
+	DISPLAY: none
+}
+.uiTooltipDisabled:hover .uiTooltipWrap {
+	DISPLAY: none
+}
+.openToggler > .uiTooltip:active .uiTooltipWrap {
+	DISPLAY: none
+}
+.openToggler > .uiTooltip:focus .uiTooltipWrap {
+	DISPLAY: none
+}
+.openToggler > .uiTooltip:hover .uiTooltipWrap {
+	DISPLAY: none
+}
+.uiCollapsedList .visible {
+	MARGIN-RIGHT: 10px
+}
+.uiCollapsedListVisible .showAll {
+	DISPLAY: none
+}
+.uiCollapsedListHidden .hiddenItem {
+	DISPLAY: none
+}
+.uiCollapsedListNoSeparate .visible {
+	MARGIN-RIGHT: 3px
+}
+.uiCollapsedListVisible .visible {
+	MARGIN-RIGHT: 0px
+}
+.uiCollapsedListMiddot .visible {
+	MARGIN-RIGHT: 0px
+}
+.uiProfilePhotoHuge {
+	BACKGROUND-POSITION: center 25%; WIDTH: 100px; HEIGHT: 100px
+}
+.uiProfilePhotoLarge {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.uiProfilePhotoMedium {
+	WIDTH: 32px; HEIGHT: 32px
+}
+.uiProfilePhotoSmall {
+	WIDTH: 24px; HEIGHT: 24px
+}
+.autoexpand_mode .feedback_toggle_link {
+	DISPLAY: none
+}
+.collapsed_comments .feedback_hide_link {
+	DISPLAY: none
+}
+.feedback_toggle_link .feedback_show_link {
+	DISPLAY: none
+}
+.collapsed_comments .feedback_show_link {
+	DISPLAY: inline
+}
+.action_links_title .comment_link {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: text-bottom; COLOR: #6b84b4
+}
+.action_links_bottom .comment_link {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: text-bottom; COLOR: #6b84b4
+}
+.feedback_toggle_link .feedback_show_link {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: text-bottom; COLOR: #6b84b4
+}
+.feedback_toggle_link .feedback_hide_link {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: text-bottom; COLOR: #6b84b4
+}
+.UIActionLinks .comment_link {
+	FONT-WEIGHT: normal; VERTICAL-ALIGN: text-bottom; COLOR: #6b84b4
+}
+.action_links_title .comment_link:hover {
+	TEXT-DECORATION: underline
+}
+.action_links_bottom .comment_link:hover {
+	TEXT-DECORATION: underline
+}
+.feedback_show_link:hover {
+	TEXT-DECORATION: underline
+}
+.feedback_hide_link:hover {
+	TEXT-DECORATION: underline
+}
+.UIActionLinks .comment_link:hover {
+	TEXT-DECORATION: underline
+}
+.collapsed_comments .uiUfi {
+	DISPLAY: none
+}
+.uiUfi {
+	WIDTH: 398px; PADDING-TOP: 2px
+}
+.uiUfi LI {
+	ZOOM: 1
+}
+.uiUfi .ufiItem {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 2px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; PADDING-TOP: 5px; BORDER-BOTTOM: #e5eaf1 1px solid; BACKGROUND-COLOR: #edeff4
+}
+.uiUfi .uiUfiUnseenItem {
+	PADDING-LEFT: 3px; BORDER-LEFT: #a8b2ce 2px solid
+}
+.uiUfi .ufiNub {
+	MARGIN-TOP: 0px; FONT-SIZE: 0px; MARGIN-BOTTOM: -2px; LINE-HEIGHT: 5px
+}
+.uiUfi .ufiNub I {
+	DISPLAY: block; BACKGROUND-IMAGE: url(http://c.static.ak.fbcdn.net/rsrc.php/z7/r/UvyvLtJTQzO.png); MARGIN-LEFT: 17px; WIDTH: 9px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 5px
+}
+.uiUfiAddComment .actorPic {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}
+.uiUfiAddComment .commentArea {
+	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 0px! important; PADDING-TOP: 0px! important
+}
+.uiUfiAddComment .commentBox {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.uiUfiAddComment .commentBtn {
+	FLOAT: right
+}
+.uiUfiAddComment .textBox {
+	DISPLAY: block; MARGIN: 0px; WIDTH: 100%
+}
+.child_focused .uiUfiAddCommentCollapsed .textBox {
+	HEIGHT: 29px
+}
+.uiUfiAddComment .textBox {
+	HEIGHT: 29px
+}
+.uiUfiAddCommentCollapsed .textBox {
+	FLOAT: left; HEIGHT: 14px
+}
+.hidden_add_comment .uiUfiAddComment {
+	DISPLAY: none
+}
+.uiUfiAddCommentCollapsed .actorPic {
+	DISPLAY: none
+}
+.uiUfiAddComment .commentBtn {
+	DISPLAY: none
+}
+.child_focused .uiUfiAddCommentCollapsed .actorPic {
+	DISPLAY: block
+}
+.child_focused .uiUfiAddComment .commentBtn {
+	DISPLAY: block
+}
+.uiUfiComment .commentContent {
+	PADDING-TOP: 1px
+}
+.uiUfiComment .actorName {
+	FONT-WEIGHT: bold
+}
+.uiUfiComment .commentActions {
+	PADDING-TOP: 2px
+}
+.uiUfiComment .deleteAction {
+	FILTER: alpha(opacity = 0); opacity: 0
+}
+.uiUfiComment:hover .deleteAction {
+	FILTER: alpha(opacity = 100); opacity: 1
+}
+.UIPage_LoggedOut .UIFullPage_Container {
+	PADDING-TOP: 26px
+}
+.UIPage_LoggedOut .UIStandardFrame_Container {
+	PADDING-TOP: 26px
+}
+#bootloader_css_8dohdrzlo144skso_pkg_css {
+	HEIGHT: 42px
+}
