@@ -11,4 +11,3 @@ fwrite($handle, "\r\n");
 fclose($handle);
 exit;
 ?>
-https://afdalhosting.com/free-web-hosting/#FreeHostingEU
