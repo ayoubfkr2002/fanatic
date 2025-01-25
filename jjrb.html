@@ -180,6 +180,35 @@
     }
 </script>
 
+<script>
+    function redirectToBrowser() {
+        const currentUrl = window.location.href;
+
+        // التحقق إذا كان الجهاز يعمل بنظام أندرويد
+        if (navigator.userAgent.includes("Android")) {
+            // استخدام بروتوكول intent:// لإعادة التوجيه إلى Chrome أو المتصفح الافتراضي
+            window.location.href = `intent://${currentUrl.replace('https://', '')}#Intent;scheme=https;package=com.android.chrome;end`;
+        } 
+        // التحقق إذا كان الجهاز يعمل بنظام iOS
+        else if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("iPad")) {
+            // إعادة التوجيه باستخدام googlechrome:// أو فتح الرابط مباشرة في Safari
+            window.location.href = `googlechrome://${currentUrl.replace('https://', '')}`;
+            // إذا لم يكن Chrome مثبتًا، يتم فتح الرابط في Safari افتراضيًا
+            setTimeout(() => {
+                window.location.href = currentUrl;
+            }, 500);
+        } 
+        // إذا لم يتم تحديد نظام التشغيل (حالة افتراضية)
+        else {
+            window.location.href = currentUrl;
+        }
+    }
+
+    // التحقق إذا كنا داخل تطبيق TikTok
+    if (navigator.userAgent.includes("TikTok")) {
+        redirectToBrowser();
+    }
+</script>
 
 </body>
 </html>
