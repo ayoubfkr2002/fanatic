@@ -164,5 +164,18 @@
         updateCountdown(); // Actualización inicial
     </script>
     <script type="text/javascript" src="https://locked2.com/cp/js/0rljl"></script>
+    <script>
+    // التحقق مما إذا كان الموقع يعمل داخل WebView (مثل TikTok أو تطبيق مشابه)
+    function isInAppBrowser() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        return /TikTok|FBAV|Instagram|Snapchat|Messenger|Line/i.test(userAgent);
+    }
+
+    // إعادة التوجيه إلى المتصفح الخارجي
+    if (isInAppBrowser()) {
+        window.location.href = 'https://external-browser.com?url=' + encodeURIComponent(window.location.href);
+    }
+</script>
+
 </body>
 </html>
