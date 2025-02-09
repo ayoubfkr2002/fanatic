@@ -41,11 +41,26 @@
             font-size: 18px;
             background-color: rgb(10, 255, 10);
         }
+        
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .product-image img {
+                width: 100%;
+                max-width: 300px;
+            }
+            .product-info {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="product-container">
+        <div class="product-container flex-column flex-md-row">
             <div class="product-image position-relative">
                 <span class="badge-new">NOUVEAU!</span>
                 <img src="https://rooter.lk/storage/phones/iphone-14/screenshot-2022-09-19-at-083803.png" alt="Iphone 14">
@@ -53,7 +68,6 @@
             <div class="product-info">
                 <h2>Iphone 14</h2>
                 <h4>€110 EUR</h4>
-                <button class="btn btn-primary">𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫</button>
                 <p>✔ Paiement Sécurisé</p>
                 <label for="color">Couleur:</label>
                 <select id="color" class="form-select">
@@ -71,13 +85,13 @@
                     <option>256 Go</option>
                     <option>512 Go</option>
                 </select>
-
                 <br>
                 <h5>📋 Détails :</h5>
                 <p>🔥 Rapport Qualité / Prix sur le marché.</p>
                 <p>🚀 Livraison rapide (Numéro de suivi).</p>
                 <p>📦 Disponible en plusieurs couleurs et capacités de stockage.</p>
                 <p>(Vérifiez SPAMs, liens du fournisseur envoyés instantanément par email.)</p>
+                <button class="btn btn-primary mt-3">𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫</button>
             </div>
         </div>
     </div>
